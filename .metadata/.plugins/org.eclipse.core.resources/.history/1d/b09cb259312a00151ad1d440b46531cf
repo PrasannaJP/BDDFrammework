@@ -1,0 +1,26 @@
+package com.webuiframework.oua.uitests.utils;
+
+import org.testng.IInvokedMethod;
+import org.testng.ITestResult;
+
+public class WebDriverInvokedMethodListener extends InvokedMethodListener {
+    @Override
+    public void afterInvocation(IInvokedMethod method, ITestResult result) {
+        Throwable throwable = result.getThrowable();
+        if (throwable != null){
+            TestBase.setFailed(throwable.getMessage());
+        }
+        super.afterInvocation(method, result);
+        if (method.isTestMethod()) {
+            if (!TestBase.getPassed()) {
+                boolean hasOldValue = ScreenShotMaker.getHasScreenshot();
+                ScreenShotMaker.hasTake(true);
+                ScreenShotMaker.hasTake(hasOldValue);
+            }
+            else {
+                if (TestBaseWebDriver.takePassedScreenshot) {
+                }
+            }
+        }
+    }
+}

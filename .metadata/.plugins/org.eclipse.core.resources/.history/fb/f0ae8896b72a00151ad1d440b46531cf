@@ -1,0 +1,5 @@
+package com.webuiframework.oua.cuke;
+
+public class CukeBuilder {
+
+}

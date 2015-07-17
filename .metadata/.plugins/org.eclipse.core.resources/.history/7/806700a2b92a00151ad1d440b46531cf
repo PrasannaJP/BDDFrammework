@@ -1,0 +1,22 @@
+package com.webuitests.cuketests;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = "src/test/java"
+		,glue="stepDefination"
+		,format = {
+				"pretty",
+				"html:target/cucumber",
+				"json:target_json/cucumber.json",
+				"junit:taget_junit/cucumber.xml"}
+		,monochrome = true	
+			
+		)
+public class RunCukeTests {
+
+}

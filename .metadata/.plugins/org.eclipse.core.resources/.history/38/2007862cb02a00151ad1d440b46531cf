@@ -1,0 +1,7 @@
+package com.webuitests.pages;
+
+import com.webuiframework.oua.uitests.panel.BasePanel;
+
+public class GoogleSearchPage extends BasePanel<GoogleSearchPage> {
+
+}

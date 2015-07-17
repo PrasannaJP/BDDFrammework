@@ -1,0 +1,22 @@
+package com.webuitests.cuketests;
+
+import java.util.Properties;
+
+import com.webuiframework.oua.uitests.utils.TestBaseWebDriver;
+import com.webuiframework.oua.uitests.utils.WebDriverWrapper;
+
+public class TestBase extends TestBaseWebDriver {
+
+	public static Properties testproperties;
+	
+	public TestBase(){
+		System.setProperty("webdriver.chrome.driver", testproperties.getProperty("webuitets.chromedriver"));
+		System.setProperty("webdriver.ie.driver", testproperties.getProperty("webuitests.iedriver"));
+	}
+	System.setProperty(, );
+	System.setProperty(", ;
+	setBrowserType(testproperties.getProperty("webuitests.browser"));
+	initWebDriver();
+	
+	WebDriverWrapper.open(testproperties.getProperty("webuitetss.URL"));
+}

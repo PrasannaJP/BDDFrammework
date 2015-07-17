@@ -1,0 +1,30 @@
+package com.webuitests.pages;
+
+import com.webuiframework.oua.uitests.control.Button;
+import com.webuiframework.oua.uitests.control.Elements;
+import com.webuiframework.oua.uitests.control.Image;
+import com.webuiframework.oua.uitests.control.Input;
+import com.webuiframework.oua.uitests.panel.BasePanel;
+
+public class GoogleSearchPage extends BasePanel<GoogleSearchPage> {
+	
+	private static GoogleSearchPage googlesearchPage;
+	
+	public static String logoImageIdlocator = "hplogo";
+	public static String 
+
+    public final Image<GoogleSearchPage> logo = new Image<GoogleSearchPage>("logo", logoImageIdlocator, this);
+    public final Input<GoogleSearchPage> textField = new Input<GoogleSearchPage>("textField", getProperty("textField.locator"), this);
+    public final Button<GoogleSearchPage> searchBtn = new Button<GoogleSearchPage>("searchBtn", getProperty("searchBtn.locator"), this);
+    public final Button<GoogleSearchPage> searchBtn2 = new Button<GoogleSearchPage>("searchBtn2", getProperty("searchBtn2.locator"), this);
+    public final Elements<GoogleSearchPage> resultsLinks = new Elements<GoogleSearchPage>("resultsLinks", getProperty("resultsLinks.locator"), this);
+    //public final Elements<GoogleSearchPage> result = new Elements<>
+
+    public static GoogleSearchPage get() {
+        if (googlesearchPage == null) {
+        	googlesearchPage = new GoogleSearchPage();
+        }
+        return googlesearchPage;
+    }
+
+}

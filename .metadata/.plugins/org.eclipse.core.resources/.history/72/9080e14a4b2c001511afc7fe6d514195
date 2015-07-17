@@ -1,0 +1,57 @@
+package com.webuitests.cuketests;
+
+import static org.testng.AssertJUnit.assertTrue;
+
+import java.net.MalformedURLException;
+import java.util.Properties;
+
+import org.junit.Test;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
+import com.webuiframework.oua.uitests.utils.TestBaseWebDriver;
+import com.webuiframework.oua.uitests.utils.WebDriverWrapper;
+
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+
+public class GoogleSearch extends TestBaseWebDriver {
+	
+	public static Properties testproperties;
+	public static String URL = "http://google.com";//testproperties.getProperty("webuitests.URL");
+	
+	//public GoogleSearch() {
+	//	super();
+	//}
+	@BeforeTest
+	public void setUp() throws MalformedURLException{
+		//System.setProperty("webdriver.chrome.driver", "c:\\Selenium\\Drivers\\chromedriver.exe");
+		//System.setProperty("webdriver.ie.driver", testproperties.getProperty("webuitests.iedriver"));
+		System.out.print("Invoking Browser");
+		setBrowserType("chrome");
+		initWebDriver();
+	}
+	
+	@AfterTest
+	public void closeDriver(){
+		WebDriverWrapper.quit();
+	}
+	
+	@Test
+	//@Given("^Open default website$")
+    public void Open_default_website() {
+		System.out.print("Invoking URL");
+        WebDriverWrapper.open(URL);
+    }
+	
+	@Then("^I see default page$")
+    public void i_see_default_page() {
+        assertTrue("Logo is not displayed", GoogleSearchPage.get().logo.isDisplayed());
+        assertTrue("check search button is visible", GoogleSearchPage.get().searchBtn.isDisplayed());
+        
+    }
+
+}

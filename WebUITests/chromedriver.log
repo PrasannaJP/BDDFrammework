@@ -1,0 +1,14 @@
+[0.001][INFO]:      ChromeDriver 26.0.1383.0 C:\Selenium\Drivers\chromedriver.exe
+[1.120][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chromeOptions": {
+      "args": [ "--start-maximized", "--test-type", "--ignore-certificate-errors", "--disable-popup-blocking", "--allow-running-insecure-content", "--disable-translate", "--always-authorize-plugins" ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.121][INFO]:      Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors --start-maximized --test-type --ignore-certificate-errors --disable-popup-blocking --allow-running-insecure-content --disable-translate --always-authorize-plugins about:blank
+[31.125][SEVERE]:   Failed to initialize connection
+[31.125][INFO]:     Chrome shutdown

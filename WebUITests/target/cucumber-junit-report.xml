@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="3" time="0">
+<testcase classname="Google Search" name="Open Page" time="0">
+<skipped><![CDATA[Given Open default website..................................................undefined
+Then I see default page.....................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Google Search" name="Check Search" time="0">
+<skipped><![CDATA[Given Open default website..................................................undefined
+When I set text 'Selenium' at default page..................................undefined
+Then I did not see search button............................................undefined
+When I set text 'Selenium' at default page..................................undefined
+When I click 'Search2' button...............................................undefined
+Then I see first link text 'Selenium - Web Browser Automation' at results page.undefined
+When I click at '1' results link............................................undefined
+Then I see first link title 'Selenium - Web Browser Automation' at new tab..undefined
+]]></skipped>
+</testcase>
+<testcase classname="Google Search" name="Check Search 2" time="0">
+<skipped><![CDATA[Given Open default website..................................................undefined
+When I set text 'Cucumber' at default page..................................undefined
+Then I did not see search button............................................undefined
+When I set text 'Cucumber' at default page..................................undefined
+When I click 'Search2' button...............................................undefined
+Then I see first link text 'Cucumber - Making BDD fun' at results page......undefined
+When I click at '1' results link............................................undefined
+Then I see first link title 'Cucumber - Making BDD fun' at new tab..........undefined
+]]></skipped>
+</testcase>
+</testsuite>

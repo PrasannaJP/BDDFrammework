@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.ReporterNGExt"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.autoit.UAutoItX"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.linqInterfaces.FuncTT"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.linqInterfaces.ActionT"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.control.Element"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.linqInterfaces.FuncT"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.linqInterfaces.Action"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.PropertyReader"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.Timer"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.LinqUtils"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.Sleeper"/>
+<fullyQualifiedTypeName name="com.sun.jna.WString"/>
+<fullyQualifiedTypeName name="com.sun.jna.Library"/>
+<fullyQualifiedTypeName name="com.sun.jna.Structure"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.panel.BasePanel"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.control.Image"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.control.Input"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.control.Button"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.control.Elements"/>
+<fullyQualifiedTypeName name="cucumber.api.java.Before"/>
+<fullyQualifiedTypeName name="cucumber.api.Scenario"/>
+<fullyQualifiedTypeName name="java.net.MalformedURLException"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="cucumber.api.java.After"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.WebDriverWrapper"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
+<fullyQualifiedTypeName name="com.webuitests.pages.GoogleSearchPage"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.cuke.CukeBuilder"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.TestBaseWebDriver"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.webuitests.cuketests.TestBase"/>
+<fullyQualifiedTypeName name="org.eclipse.jetty.websocket.api.SuspendToken"/>
+</qualifiedTypeNameHistroy>

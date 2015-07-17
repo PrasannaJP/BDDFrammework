@@ -1,0 +1,12 @@
+package com.webuitests.cuketests;
+
+import org.junit.runner.RunWith;
+import cucumber.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+public class HomepageTest {
+}
+
+public class RunTests {
+
+}

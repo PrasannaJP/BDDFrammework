@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunTests" project="WebUITests" tests="16" started="16" failures="0" errors="0" ignored="14">
+  <testsuite name="com.webuitests.cuketests.RunTests" time="3.971">
+    <testsuite name="Feature: Google Search" time="3.971">
+      <testsuite name="Scenario Outline: Check Search" time="3.971">
+        <testsuite name="Examples:" time="3.971">
+          <testsuite name="| Selenium | Selenium - Web Browser Automation |" time="0.411" incomplete="true">
+            <skipped/>
+            <testcase name="Given Open default website" classname="| Selenium | Selenium - Web Browser Automation |" time="0.002"/>
+            <testcase name="When I set text 'Selenium' at default page" classname="| Selenium | Selenium - Web Browser Automation |" time="0.0" ignored="true"/>
+            <testcase name="Then I did not see search button" classname="| Selenium | Selenium - Web Browser Automation |" time="0.0" ignored="true"/>
+            <testcase name="When I set text 'Selenium' at default page" classname="| Selenium | Selenium - Web Browser Automation |" time="0.0" ignored="true"/>
+            <testcase name="When I click 'Search2' button" classname="| Selenium | Selenium - Web Browser Automation |" time="0.001" ignored="true"/>
+            <testcase name="Then I see first link text 'Selenium - Web Browser Automation' at results page" classname="| Selenium | Selenium - Web Browser Automation |" time="0.0" ignored="true"/>
+            <testcase name="When I click at '1' results link" classname="| Selenium | Selenium - Web Browser Automation |" time="0.0" ignored="true"/>
+            <testcase name="Then I see first link title 'Selenium - Web Browser Automation' at new tab" classname="| Selenium | Selenium - Web Browser Automation |" time="0.408" ignored="true"/>
+          </testsuite>
+          <testsuite name="| Cucumber | Cucumber - Making BDD fun |" time="0.293" incomplete="true">
+            <skipped/>
+            <testcase name="Given Open default website" classname="| Cucumber | Cucumber - Making BDD fun |" time="0.001"/>
+            <testcase name="When I set text 'Cucumber' at default page" classname="| Cucumber | Cucumber - Making BDD fun |" time="0.0" ignored="true"/>
+            <testcase name="Then I did not see search button" classname="| Cucumber | Cucumber - Making BDD fun |" time="0.0" ignored="true"/>
+            <testcase name="When I set text 'Cucumber' at default page" classname="| Cucumber | Cucumber - Making BDD fun |" time="0.0" ignored="true"/>
+            <testcase name="When I click 'Search2' button" classname="| Cucumber | Cucumber - Making BDD fun |" time="0.001" ignored="true"/>
+            <testcase name="Then I see first link text 'Cucumber - Making BDD fun' at results page" classname="| Cucumber | Cucumber - Making BDD fun |" time="0.0" ignored="true"/>
+            <testcase name="When I click at '1' results link" classname="| Cucumber | Cucumber - Making BDD fun |" time="0.0" ignored="true"/>
+            <testcase name="Then I see first link title 'Cucumber - Making BDD fun' at new tab" classname="| Cucumber | Cucumber - Making BDD fun |" time="0.291" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,16 @@
+package com.webuitests.cuketests;
+
+import java.net.MalformedURLException;
+
+import com.webuiframework.oua.uitests.panel.BasePanel;
+import com.webuiframework.oua.uitests.utils.TestBaseWebDriver;
+
+import cucumber.api.Scenario;
+import cucumber.api.java.Before;
+
+public class GoogleSearch extends TestBaseWebDriver {
+	
+	@Before
+	public void setUp(Scenario scenario) throws MalformedURLException
+
+}

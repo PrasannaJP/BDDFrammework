@@ -1,0 +1,5 @@
+package com.webuiframework.oua.uitests.utils.linqInterfaces;
+
+public interface FuncTTTTT<T1, T2, T3, T4, T> {
+
+}

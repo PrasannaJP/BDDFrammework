@@ -1,0 +1,19 @@
+package com.webuitests.cuketests;
+
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+
+
+CucumberOptions(
+
+features = {"Feature/googleCalc.feature"},glue={"stepDefinition"},
+
+plugin = {"pretty"},
+
+tags = {"@Runme"}
+
+)
+
+public class TestRunner {
+
+}

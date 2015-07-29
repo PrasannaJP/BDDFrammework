@@ -42,16 +42,13 @@ public class GoogleSearch extends TestBaseWebDriver {
 	
 	
 	@Given("^Open default website$")
-    public void Open_default_website() {
+	public void open_default_website() throws Throwable {
 		System.out.print("Invoking URL");
         WebDriverWrapper.open(URL);
-    }
-	
-	@Then("^I see default page$")
-    public void i_see_default_page() {
-        //("Logo is not displayed", GoogleSearchPage.get().logo.isDisplayed());
-        //assertTrue("check search button is visible", GoogleSearchPage.get().searchBtn.isDisplayed());
-        
-    }
+	}
 
+	@Then("^I see default page$")
+	public void i_see_default_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	}
 }

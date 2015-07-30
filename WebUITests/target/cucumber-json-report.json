@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2126083674,
+              "duration": 1878527064,
               "status": "passed"
             },
             "line": 5,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 2462596882,
+              "duration": 2715464519,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 437732706,
+              "duration": 369881062,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14187,
+              "duration": 12376,
               "status": "passed"
             },
             "line": 9,
@@ -70,282 +70,6 @@
           {
             "line": 7,
             "name": "@Open_Page"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1477853216,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Open default website",
-            "match": {
-              "location": "GoogleSearch.open_default_website()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1731759213,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GoogleSearch.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 23,
-        "name": "Check Search",
-        "description": "",
-        "id": "google-search;check-search;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 257361560,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GoogleSearch.closeDriver()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 13,
-            "name": "I set text \u0027Selenium\u0027 at default page",
-            "match": {},
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 14,
-            "name": "I did not see search button",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 15,
-            "name": "I set text \u0027Selenium\u0027 at default page",
-            "match": {},
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16,
-            "name": "I click \u0027Search2\u0027 button",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 17,
-            "name": "I see first link text \u0027Selenium - Web Browser Automation\u0027 at results page",
-            "match": {},
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 18,
-            "name": "I click at \u00271\u0027 results link",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 19,
-            "name": "I see first link title \u0027Selenium - Web Browser Automation\u0027 at new tab",
-            "match": {},
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@demo"
-          },
-          {
-            "line": 11,
-            "name": "@Check_Search"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1518938435,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Open default website",
-            "match": {
-              "location": "GoogleSearch.open_default_website()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1757275683,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GoogleSearch.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 24,
-        "name": "Check Search",
-        "description": "",
-        "id": "google-search;check-search;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 257300284,
-              "status": "passed"
-            },
-            "match": {
-              "location": "GoogleSearch.closeDriver()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 13,
-            "name": "I set text \u0027Cucumber\u0027 at default page",
-            "match": {},
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 14,
-            "name": "I did not see search button",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 15,
-            "name": "I set text \u0027Cucumber\u0027 at default page",
-            "match": {},
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16,
-            "name": "I click \u0027Search2\u0027 button",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 17,
-            "name": "I see first link text \u0027Cucumber - Making BDD fun\u0027 at results page",
-            "match": {},
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 18,
-            "name": "I click at \u00271\u0027 results link",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 19,
-            "name": "I see first link title \u0027Cucumber - Making BDD fun\u0027 at new tab",
-            "match": {},
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@demo"
-          },
-          {
-            "line": 11,
-            "name": "@Check_Search"
           }
         ]
       }

@@ -7,7 +7,7 @@
     <property name="gherkin.version" value="2.12.2"/>
     <property name="cucumber-html.version" value="0.2.3"/>
     <property name="junit.version" value="4.11"/>
-	<property name="selenium.version" value="2.46.0"/>
+	<property name="selenium.version" value="2.45.0"/>
 	<property name ="testng.version" value = "6.9.4"/>
     <property name="jars" value="lib"/>
 

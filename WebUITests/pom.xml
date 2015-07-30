@@ -9,8 +9,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <selenium.version>[2.46.0,)</selenium.version>
-    <cucumber.version>[1.2.3,)</cucumber.version>
-    <cucumber-jvm-deps.version>[1.0.3,)</cucumber-jvm-deps.version>
+    <cucumber.version>[1.2.4,)</cucumber.version>
     <jna.version>[4.1.0,)</jna.version>
      <junit.version>[4.11.0,)</junit.version>
      <cucumber-html.version>[0.2.3,)</cucumber-html.version>
@@ -23,13 +22,8 @@
    <version>1.6.0</version>
    <scope>system</scope>
    <systemPath>${env.JAVA_HOME}/lib/tools.jar</systemPath>
+   <!--  JAVA DEPENDENCY -->
  </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>${junit.version}</version>
-      <scope>test</scope>
-    </dependency>
     <dependency>
      <groupId>com.google.guava</groupId>
 	<artifactId>guava</artifactId>
@@ -40,11 +34,12 @@
         <artifactId>slf4j-simple</artifactId>
         <version>1.6.4</version>
     </dependency>
-
+    
+<!-- SELENIUM DEPENCY -->
     <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
+     <groupId>org.seleniumhq.selenium</groupId>
+     <artifactId>selenium-java</artifactId>
+     <version>${selenium.version}</version>
         </dependency>
         <dependency>
 		<groupId>org.seleniumhq.selenium</groupId>
@@ -56,42 +51,34 @@
 		<artifactId>selenium-server</artifactId>
 		<version>${selenium.version}</version>
 		</dependency>
-       <dependency>
+		
+		<!-- CUCUMBER DEPENCY -->
+		<dependency>
 		<groupId>info.cukes</groupId>
 		<artifactId>cucumber-core</artifactId>
 		<version>${cucumber.version}</version>
 		</dependency>
-		<dependency>
-    <groupId>info.cukes</groupId>
-    <artifactId>cucumber-java</artifactId>
-    <version>${cucumber.version}</version>
-    
-</dependency>
-		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-junit</artifactId>
-			<version>${cucumber.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-jvm-deps</artifactId>
-			<version>${cucumber-jvm-deps.version}</version>
-			</dependency>
+		
 		<dependency>
 		<groupId>info.cukes</groupId>
-		<artifactId>gherkin</artifactId>
-		<version>2.12.2</version>
+		<artifactId>cucumber-java</artifactId>
+		<version>${cucumber.version}</version>
 		</dependency>
+		
 		<dependency>
 		<groupId>info.cukes</groupId>
-		<artifactId>cucumber-html</artifactId>
-		<version>0.2.3</version>
+		<artifactId>cucumber-junit</artifactId>
+		<version>${cucumber.version}</version>
+		<scope>test</scope>
 		</dependency>
+
         <dependency>
-    		<groupId>net.masterthought</groupId>
-    		<artifactId>cucumber-reporting</artifactId>
-    		<version>${masterthought.version}</version>
-			</dependency>
+    	<groupId>net.masterthought</groupId>
+    	<artifactId>cucumber-reporting</artifactId>
+    	<version>${masterthought.version}</version>
+		</dependency>
+			
+			<!-- WebUIFramework Depencies -->
         <dependency>
             <groupId>WebUIFramework</groupId>
             <artifactId>WebUIFramework</artifactId>
@@ -99,7 +86,6 @@
         </dependency>
         </dependencies>
          <build>
-
      <plugins>
          <plugin>
              <groupId>org.codehaus.mojo</groupId>
@@ -117,9 +103,8 @@
                  <executableDependency>
                      <groupId>info.cukes</groupId>
                      <artifactId>cucumber-core</artifactId>
-                     <groupId>info.cukes</groupId>
-    				<artifactId>cucumber-java</artifactId>
                  </executableDependency>
+                 <classpathScope>test</classpathScope>
                  <mainClass>cucumber.api.cli.Main</mainClass>
                  <arguments>
                      <argument>--format</argument>
@@ -128,20 +113,15 @@
                      <argument>pretty</argument>
                      <argument>--format</argument>
                      <argument>html:target/cucumber-html-report</argument>
+                     <argument>--format</argument>
+        			<argument>json:target/cucumber-json-report.json</argument>
                      <argument>--tags</argument>
                      <argument>@Open_Page</argument>
                      <argument>--glue</argument>
-                     <argument>src/test/java/</argument>
-                     <argument>src/test/resources/</argument>
+                     <argument>com/webuitests/cuketests</argument>
+                     <argument>src/test/resources/features</argument>
                  </arguments>
              </configuration>
-             <dependencies>
-                 <dependency>
-                     <groupId>info.cukes</groupId>
-                     <artifactId>cucumber-core</artifactId>
-                     <version>${cucumber.version}</version>
-                 </dependency>
-             </dependencies>
          </plugin>
      </plugins>
 </build>

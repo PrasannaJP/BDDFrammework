@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/GoogleSearch.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("GoogleSearch.feature");
 formatter.feature({
   "line": 2,
   "name": "Google Search",
@@ -12,6 +12,10 @@ formatter.feature({
     }
   ]
 });
+formatter.before({
+  "duration": 2462596882,
+  "status": "passed"
+});
 formatter.background({
   "line": 4,
   "name": "",
@@ -24,9 +28,12 @@ formatter.step({
   "name": "Open default website",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "GoogleSearch.open_default_website()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 2126083674,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 8,
@@ -47,9 +54,16 @@ formatter.step({
   "name": "I see default page",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "GoogleSearch.i_see_default_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 14187,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 437732706,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 12,
@@ -133,6 +147,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 1731759213,
+  "status": "passed"
+});
 formatter.background({
   "line": 4,
   "name": "",
@@ -145,9 +163,12 @@ formatter.step({
   "name": "Open default website",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "GoogleSearch.open_default_website()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 1477853216,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 23,
@@ -242,6 +263,14 @@ formatter.match({});
 formatter.result({
   "status": "undefined"
 });
+formatter.after({
+  "duration": 257361560,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1757275683,
+  "status": "passed"
+});
 formatter.background({
   "line": 4,
   "name": "",
@@ -254,9 +283,12 @@ formatter.step({
   "name": "Open default website",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "GoogleSearch.open_default_website()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 1518938435,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 24,
@@ -350,5 +382,9 @@ formatter.result({
 formatter.match({});
 formatter.result({
   "status": "undefined"
+});
+formatter.after({
+  "duration": 257300284,
+  "status": "passed"
 });
 });

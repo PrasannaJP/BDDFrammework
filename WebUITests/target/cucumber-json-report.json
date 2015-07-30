@@ -11,30 +11,58 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 2126083674,
+              "status": "passed"
             },
             "line": 5,
             "name": "Open default website",
-            "match": {},
+            "match": {
+              "location": "GoogleSearch.open_default_website()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 2462596882,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearch.setUp(Scenario)"
+            }
+          }
+        ],
         "line": 8,
         "name": "Open Page",
         "description": "",
         "id": "google-search;open-page",
+        "after": [
+          {
+            "result": {
+              "duration": 437732706,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearch.closeDriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 14187,
+              "status": "passed"
             },
             "line": 9,
             "name": "I see default page",
-            "match": {},
+            "match": {
+              "location": "GoogleSearch.i_see_default_page()"
+            },
             "keyword": "Then "
           }
         ],
@@ -54,20 +82,45 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 1477853216,
+              "status": "passed"
             },
             "line": 5,
             "name": "Open default website",
-            "match": {},
+            "match": {
+              "location": "GoogleSearch.open_default_website()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 1731759213,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearch.setUp(Scenario)"
+            }
+          }
+        ],
         "line": 23,
         "name": "Check Search",
         "description": "",
         "id": "google-search;check-search;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 257361560,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearch.closeDriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
@@ -167,20 +220,45 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 1518938435,
+              "status": "passed"
             },
             "line": 5,
             "name": "Open default website",
-            "match": {},
+            "match": {
+              "location": "GoogleSearch.open_default_website()"
+            },
             "keyword": "Given "
           }
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 1757275683,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearch.setUp(Scenario)"
+            }
+          }
+        ],
         "line": 24,
         "name": "Check Search",
         "description": "",
         "id": "google-search;check-search;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 257300284,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSearch.closeDriver()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
@@ -276,7 +354,7 @@
     "description": "",
     "id": "google-search",
     "keyword": "Feature",
-    "uri": "features/GoogleSearch.feature",
+    "uri": "GoogleSearch.feature",
     "tags": [
       {
         "line": 1,

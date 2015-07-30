@@ -28,6 +28,10 @@
              dest="${jars}/cucumber-html-${cucumber-html.version}.jar"/>
     	<get src="${repo}/org/seleniumhq/selenium/selenium-server/${selenium.version}/selenium-server-${selenium.version}.jar"
     	             dest="${jars}/selenium-server-${selenium.version}.jar"/>
+    	<get src="${repo}/org/seleniumhq/selenium/selenium-support/${selenium.version}/selenium-support-${selenium.version}.jar"
+    	    	             dest="${jars}/selenium-support-${selenium.version}.jar"/>
+    	<get src="${repo}/org/seleniumhq/selenium/selenium-java/${selenium.version}/selenium-java-${selenium.version}.jar"
+    	    	    	             dest="${jars}/selenium-java-${selenium.version}.jar"/>
         <get src="${repo}/junit/junit/${junit.version}/junit-${junit.version}.jar"
              dest="${jars}/junit-${junit.version}.jar"/>
     	<get src="${repo}/org/seleniumhq/selenium/selenium-java/${selenium.version}/selenium-java-${selenium.version}.jar"
@@ -40,21 +44,20 @@
     </target>
 	
 	 <target name="classpath">
-	 	<mkdir dir="target/test-classes"/>
+	 	
 	        <path id="classpath">
 	            <fileset dir="${jars}">
 	                <include name="**/*.jar"/>
 	            </fileset>
-	           	<pathelement location="target/classes"/>
+	        	<pathelement location="src/test/resources"/>
+	        	<pathelement location="src/test/java/com/webuitests/cuketests"/>
 	            <pathelement location="target/test-classes"/>
 	        </path>
 	    </target>
 
 	    <target name="compile-test" depends="classpath">
-	        <copy todir="target/test-classes">
-	            <fileset dir="src/test/resources"></fileset>
-	        </copy>
-	        <javac srcdir="src/test/java" destdir="target/test-classes" classpathref="classpath" includeantruntime="false"/>
+	    	<mkdir dir="target/test-classes"/>
+	        <javac srcdir="src/test/java/com/webuitests/cuketests" destdir="target/test-classes" classpathref="classpath" includeantruntime="false"/>
 	    </target>
 
 
@@ -71,8 +74,8 @@
             <arg value="--format"/>
             <arg value="html:target/cucumber-html-report"/>
             <arg value="--glue"/>
-            <arg value="src/test/java"/>
-            <arg value="src/test/resources"/>
+            <arg value="com/webuitests/cuketests"/>
+            <arg value="src/test/resources/features"/>
         </java>
 
         <fail message="Cucumber failed">

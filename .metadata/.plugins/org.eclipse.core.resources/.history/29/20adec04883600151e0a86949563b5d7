@@ -16,7 +16,14 @@
      <masterthought.version>0.1.0</masterthought.version> 
   </properties>
   <dependencies>
- <!--  JAVA DEPENDENCY -->
+    <dependency>
+   <groupId>com.sun</groupId>
+   <artifactId>tools</artifactId>
+   <version>1.6.0</version>
+   <scope>system</scope>
+   <systemPath>${env.JAVA_HOME}/lib/tools.jar</systemPath>
+   <!--  JAVA DEPENDENCY -->
+ </dependency>
     <dependency>
      <groupId>com.google.guava</groupId>
 	<artifactId>guava</artifactId>

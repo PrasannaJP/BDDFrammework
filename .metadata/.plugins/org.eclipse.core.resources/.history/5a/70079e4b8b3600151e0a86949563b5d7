@@ -72,15 +72,7 @@
 		</dependency>
 			
 			<!-- WebUIFramework Depencies -->
-       		<repositories>
-        	<repository>
-        	<id>WebUIFramework</id>
-        	<name>WebUIFrameworkID</name>
-        	<url>"F:\OUA\Framework FRM GIT\WebUITests-0.0.1-SNAPSHOT.jar"</url>
-        	</repository>
-     </repositories>
-       		
-       		<dependency>
+        <dependency>
             <groupId>WebUIFramework</groupId>
             <artifactId>WebUIFramework</artifactId>
             <version>0.0.1-SNAPSHOT</version>

@@ -3203,3 +3203,24 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-29 15:59:09.013
 !MESSAGE Launch configuration RunTests references closed project WebUITests
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:12:31.613
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:12:31.673
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml: end tag name </plugins> must match start tag name <build> from line 81 (position: TEXT seen ...</plugins>\r\n     </plugins>... @145:16)  @ line 145, column 16
+ for project  at F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:12:31.675
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml: end tag name </plugins> must match start tag name <build> from line 81 (position: TEXT seen ...</plugins>\r\n     </plugins>... @145:16)  @ line 145, column 16
+ for project  at F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:12:48.235
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml: end tag name </plugins> must match start tag name <build> from line 81 (position: TEXT seen ...</plugins>\r\n     </plugins>... @145:16)  @ line 145, column 16
+ for project  at F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:12:48.392
+!MESSAGE Could not read pom.xml

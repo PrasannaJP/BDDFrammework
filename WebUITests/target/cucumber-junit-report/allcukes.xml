@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="4.963885">
-<testcase classname="Google Search" name="Open Page" time="4.963885">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="4.427021">
+<testcase classname="Google Search" name="Open Page" time="4.427021">
 <system-out><![CDATA[Given Open default website..................................................passed
 Then I see default page.....................................................passed
 ]]></system-out>

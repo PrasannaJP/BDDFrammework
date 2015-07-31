@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2715464519,
+  "duration": 2311255724,
   "status": "passed"
 });
 formatter.background({
@@ -32,7 +32,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1878527064,
+  "duration": 1750493145,
   "status": "passed"
 });
 formatter.scenario({
@@ -62,7 +62,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.after({
-  "duration": 369881062,
+  "duration": 365259760,
   "status": "passed"
 });
 });

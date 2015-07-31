@@ -6,17 +6,6 @@
   <name>WebUITests</name>
   <description>WebUITests using selenium</description>
   
-  <repositories>
-  <repository>
-     <id>CLAESTOR</id>
-     <name>CLAESTOR-snapshots</name>
-     <snapshots>
-                <enabled>true</enabled>
-     </snapshots>
-     <url>http://BG4WS0669:8081/artifactory/snapshots</url>
-  </repository>
-</repositories>
-  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <selenium.version>[2.46.0,)</selenium.version>

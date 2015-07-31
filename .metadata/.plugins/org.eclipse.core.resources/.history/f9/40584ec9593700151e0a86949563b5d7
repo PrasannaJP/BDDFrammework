@@ -2,9 +2,20 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>WebUITests</groupId>
   <artifactId>WebUITests</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT-${build.number}</version>
   <name>WebUITests</name>
   <description>WebUITests using selenium</description>
+  
+  <repositories>
+  <repository>
+     <id>CLAESTOR</id>
+     <name>CLAESTOR-snapshots</name>
+     <snapshots>
+                <enabled>true</enabled>
+     </snapshots>
+     <url>http://BG4WS0669:8081/artifactory/snapshots</url>
+  </repository>
+</repositories>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -117,6 +128,30 @@
              </configuration>
          </plugin>
          
+     <plugin>
+        <artifactId>Maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+     </plugin>
+     <plugin>
+        <groupId>org.apache.Maven.plugins</groupId>
+        <artifactId>Maven-jar-plugin</artifactId>
+        <version>2.5</version>
+        <configuration>
+          <archive>
+             <index>true</index>
+             <manifest>
+                <addClasspath>true</addClasspath>
+             </manifest>
+             <manifestEntries>
+                <Implementation-Version>${build.number}</Implementation-Version>
+             </manifestEntries>
+          </archive>
+        </configuration>
+     </plugin>
 </plugins>
 </build>
 </project>

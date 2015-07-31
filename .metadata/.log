@@ -3224,3 +3224,33 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:12:48.392
 !MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:26:41.608
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:26:42.664
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml: end tag name </build> must match start tag name <plugins> from line 62 (position: TEXT seen ...</plugin>\r\n  </build>... @80:11)  @ line 80, column 11
+ for project  at F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:26:42.666
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml: end tag name </build> must match start tag name <plugins> from line 62 (position: TEXT seen ...</plugin>\r\n  </build>... @80:11)  @ line 80, column 11
+ for project  at F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:26:44.739
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:26:50.721
+!MESSAGE Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml: end tag name </build> must match start tag name <plugins> from line 62 (position: TEXT seen ...</plugin>\r\n  </build>... @80:11)  @ line 80, column 11
+ for project  at F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:26:50.891
+!MESSAGE Could not read pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:27:38.882
+!MESSAGE Failed to read Maven project: For artifact {WebUITests:WebUITests:null:jar}: The version cannot be empty.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-07-31 13:27:38.885
+!MESSAGE Failed to read Maven project: For artifact {WebUITests:WebUITests:null:jar}: The version cannot be empty.

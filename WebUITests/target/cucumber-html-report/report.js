@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2654255658,
+  "duration": 2308153323,
   "status": "passed"
 });
 formatter.background({
@@ -32,7 +32,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1541472339,
+  "duration": 1798135421,
   "status": "passed"
 });
 formatter.scenario({
@@ -58,11 +58,12 @@ formatter.match({
   "location": "GoogleSearch.i_see_default_page()"
 });
 formatter.result({
-  "duration": 12979,
-  "status": "passed"
+  "duration": 26739764842,
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_default_page(GoogleSearch.java:47)\r\n\tat ✽.Then I see default page(GoogleSearch.feature:9)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 348156716,
+  "duration": 501501244,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -148,7 +149,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1894258809,
+  "duration": 1767856986,
   "status": "passed"
 });
 formatter.background({
@@ -167,7 +168,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1392625959,
+  "duration": 1697094013,
   "status": "passed"
 });
 formatter.scenario({
@@ -235,40 +236,92 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "Selenium",
+      "offset": 12
+    }
+  ],
+  "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 26739892222,
+  "error_message": "java.lang.NullPointerException\r\n\tat com.webuiframework.oua.uitests.control.Input.setText(Input.java:40)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_set_text_at_default_page(GoogleSearch.java:53)\r\n\tat ✽.When I set text \u0027Selenium\u0027 at default page(GoogleSearch.feature:13)\r\n",
+  "status": "failed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "GoogleSearch.i_did_not_see_search_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "Selenium",
+      "offset": 12
+    }
+  ],
+  "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Search2",
+      "offset": 9
+    }
+  ],
+  "location": "GoogleSearch.i_click_search_button(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Selenium - Web Browser Automation",
+      "offset": 23
+    }
+  ],
+  "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 12
+    }
+  ],
+  "location": "GoogleSearch.i_click_at_results_link(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Selenium - Web Browser Automation",
+      "offset": 24
+    }
+  ],
+  "location": "GoogleSearch.i_see_first_link_title_at_new_tab(String)"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 300519873,
+  "duration": 402885492,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1768325154,
+  "duration": 1797671781,
   "status": "passed"
 });
 formatter.background({
@@ -287,7 +340,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1476330390,
+  "duration": 1771161022,
   "status": "passed"
 });
 formatter.scenario({
@@ -355,36 +408,12 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.after({
-  "duration": 287059539,
-  "status": "passed"
-});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Cucumber",
+      "offset": 12
+    }
+  ],
+  "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });

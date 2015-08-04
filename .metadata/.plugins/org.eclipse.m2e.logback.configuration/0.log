@@ -6441,3 +6441,532 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2015-08-04 12:35:02,051 [Worker-1694] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2015-08-04 12:35:05,701 [Worker-1694] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
 2015-08-04 12:35:05,701 [Worker-1694] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 12:37:22,536 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:37:22,536 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:37:22,537 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:37:22,537 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 12:40:45,861 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 12:40:45,861 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 12:42:15,774 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:42:15,775 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:42:15,775 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:42:15,776 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:43:25,432 [Worker-1711] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUITests:WebUITests:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml.
+2015-08-04 12:43:26,492 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:43:26,492 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:43:26,492 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:43:26,492 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:43:29,392 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 12:43:29,392 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-08-04 12:43:31,590 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:43:31,590 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:43:31,591 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:43:31,591 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 12:43:34,205 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 12:43:34,205 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 12:44:15,174 [Worker-1717] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:44:15,174 [Worker-1717] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:44:15,175 [Worker-1717] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:44:15,185 [Worker-1717] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 12:50:02,616 [Worker-1722] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUITests:WebUITests:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml.
+2015-08-04 12:50:03,541 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:50:03,541 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:50:03,541 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:50:03,542 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:50:06,706 [Worker-1725] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 12:50:06,706 [Worker-1725] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-08-04 12:50:08,746 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:50:08,746 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:50:08,746 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:50:08,746 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 12:50:11,076 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 12:50:11,077 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 12:50:37,051 [Worker-1724] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for WebUIFramework:WebUIFramework:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact WebUIFramework:WebUIFramework:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:109) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:736) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:713) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244) [org.eclipse.m2e.jdt_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:223) [org.eclipse.m2e.jdt_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197) [org.eclipse.m2e.jdt_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153) [org.eclipse.m2e.jdt_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136) [org.eclipse.m2e.jdt_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134) [org.eclipse.m2e.jdt_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+2015-08-04 12:50:37,342 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:50:37,342 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:50:37,343 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:50:37,343 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:50:47,518 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:50:47,518 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:50:47,518 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:50:47,518 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:52:10,430 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:52:10,430 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:52:10,431 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:52:10,431 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:52:21,761 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:52:21,761 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:52:21,762 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:52:21,762 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:52:35,405 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:52:35,405 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:52:35,406 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:52:35,406 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:52:48,814 [Worker-1725] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 12:52:48,814 [Worker-1725] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 12:53:25,018 [Worker-1726] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:53:25,018 [Worker-1726] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:53:25,020 [Worker-1726] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:53:25,020 [Worker-1726] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:53:28,836 [Worker-1726] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:53:28,837 [Worker-1726] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:53:28,837 [Worker-1726] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:53:28,837 [Worker-1726] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 12:53:36,321 [Worker-1725] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 12:53:36,321 [Worker-1725] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 12:54:16,493 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:54:16,493 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:54:16,493 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:54:16,493 [Worker-1723] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 12:55:18,827 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:55:18,827 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:55:18,828 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:55:18,828 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:55:29,769 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:55:29,769 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:55:29,769 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:55:29,769 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:56:17,110 [Worker-1725] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:56:17,110 [Worker-1725] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:56:17,111 [Worker-1725] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:56:17,112 [Worker-1725] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:56:21,531 [Worker-1724] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 12:56:21,532 [Worker-1724] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 12:58:19,646 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:58:19,647 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:58:19,648 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:58:19,648 [Worker-1711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:58:25,136 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 12:58:25,136 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 12:58:34,828 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:58:34,828 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:58:34,828 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:58:34,828 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 12:58:51,629 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:58:51,630 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:58:51,631 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:58:51,631 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 12:58:55,466 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-08-04 12:59:00,432 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 12:59:00,433 [Worker-1711] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 12:59:40,973 [Worker-1727] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:59:40,973 [Worker-1727] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 12:59:40,974 [Worker-1727] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 12:59:40,975 [Worker-1727] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 13:00:19,965 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:00:19,965 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 13:00:19,966 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:00:19,966 [Worker-1722] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 13:00:27,845 [Worker-1722] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 13:00:27,845 [Worker-1722] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 13:02:26,589 [Worker-1725] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 13:02:26,589 [Worker-1725] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install -DperformRelease=true -DcreateChecksum=true
+2015-08-04 13:02:56,655 [Worker-1724] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 13:02:56,656 [Worker-1724] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install -DperformRelease=true -DcreateChecksum=true
+2015-08-04 13:05:54,443 [Worker-1730] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:05:54,443 [Worker-1730] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 13:05:54,444 [Worker-1730] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:05:54,446 [Worker-1730] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 13:05:55,467 [Worker-1729] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:05:55,467 [Worker-1729] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 13:05:55,467 [Worker-1729] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:05:55,467 [Worker-1729] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 13:05:59,854 [Worker-1725] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 13:05:59,854 [Worker-1725] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-08-04 13:06:02,341 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:06:02,341 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 13:06:02,342 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:06:02,342 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 13:06:41,648 [Worker-1733] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 13:06:41,648 [Worker-1733] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-08-04 13:06:44,081 [Worker-1731] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:06:44,081 [Worker-1731] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 13:06:44,081 [Worker-1731] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:06:44,081 [Worker-1731] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 13:08:24,107 [Worker-1734] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 13:08:24,107 [Worker-1734] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 13:12:30,398 [Worker-1732] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:12:30,398 [Worker-1732] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 13:12:30,398 [Worker-1732] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:12:30,399 [Worker-1732] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 13:12:43,907 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:12:43,907 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 13:12:43,907 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:12:43,907 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 13:13:02,664 [Worker-1732] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-08-04 13:13:02,664 [Worker-1732] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 13:13:06,735 [Worker-1732] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:13:06,735 [Worker-1732] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 13:13:06,735 [Worker-1732] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:13:06,736 [Worker-1732] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 13:13:37,986 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:13:37,986 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 13:13:37,987 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:13:37,987 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 13:13:38,999 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:13:38,999 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 13:13:38,999 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:13:39,000 [Worker-1724] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 13:13:52,330 [Worker-1736] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 13:13:52,330 [Worker-1736] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 13:14:48,410 [Worker-1734] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.47.1/selenium-api-2.47.1-sources.jar
+2015-08-04 13:14:49,925 [Worker-1734] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.47.1/selenium-api-2.47.1-sources.jar
+2015-08-04 13:14:49,964 [Worker-1734] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-api:2.47.1
+2015-08-04 13:14:50,309 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:14:50,309 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 13:14:50,309 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:14:50,310 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 13:17:57,192 [Worker-1738] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:17:57,192 [Worker-1738] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 13:17:57,192 [Worker-1738] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:17:57,192 [Worker-1738] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 13:18:05,111 [Worker-1737] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-08-04 13:18:05,111 [Worker-1737] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 13:18:09,214 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:18:09,214 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 13:18:09,214 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:18:09,214 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 13:18:14,164 [Worker-1732] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 13:18:14,164 [Worker-1732] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 13:21:46,646 [Worker-1737] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:21:46,646 [Worker-1737] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 13:21:46,646 [Worker-1737] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:21:46,646 [Worker-1737] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 13:21:53,010 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:21:53,010 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 13:21:53,011 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:21:53,011 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 13:22:07,946 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:22:07,946 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 13:22:07,947 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 13:22:07,947 [Worker-1734] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 14:40:44,702 [Worker-1760] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 14:40:44,703 [Worker-1760] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 14:40:44,703 [Worker-1760] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 14:40:44,703 [Worker-1760] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:24:01,882 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:24:01,882 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 15:24:01,882 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:24:01,883 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 15:27:40,664 [Worker-1772] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:27:40,664 [Worker-1772] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:27:40,664 [Worker-1772] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:27:40,664 [Worker-1772] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:38:30,270 [Worker-1786] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:38:30,270 [Worker-1786] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:38:30,271 [Worker-1786] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:38:30,271 [Worker-1786] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:38:58,965 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:38:58,965 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:38:58,965 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:38:58,965 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:39:23,993 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:39:23,993 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:39:23,993 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:39:23,993 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:39:43,452 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:39:43,452 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:39:43,453 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:39:43,453 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:40:11,509 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:40:11,509 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:40:11,509 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:40:11,509 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:44:03,958 [Worker-1789] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:44:03,958 [Worker-1789] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:44:03,958 [Worker-1789] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:44:03,958 [Worker-1789] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:44:35,349 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:44:35,349 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:44:35,349 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:44:35,349 [Worker-1787] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:45:21,747 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:45:21,747 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:45:21,747 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:45:21,747 [Worker-1785] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:48:28,409 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:48:28,409 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:48:28,409 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:48:28,409 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:49:07,539 [Worker-1788] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:49:07,539 [Worker-1788] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:49:07,539 [Worker-1788] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:49:07,540 [Worker-1788] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:49:28,765 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:49:28,765 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:49:28,765 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:49:28,765 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:50:15,579 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:50:15,579 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:50:15,580 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:50:15,580 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:50:32,620 [Worker-1788] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:50:32,620 [Worker-1788] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:50:32,620 [Worker-1788] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:50:32,620 [Worker-1788] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:51:04,469 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:51:04,469 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:51:04,470 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:51:04,470 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:51:07,782 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:51:07,782 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:51:07,783 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:51:07,783 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:51:27,702 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:51:27,702 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:51:27,703 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:51:27,703 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:51:43,027 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:51:43,027 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:51:43,027 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:51:43,027 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:51:53,432 [Worker-1792] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-08-04 15:51:53,432 [Worker-1792] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 15:51:57,568 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:51:57,568 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:51:57,568 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:51:57,568 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:52:36,212 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:52:36,212 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 15:52:36,213 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:52:36,213 [Worker-1791] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 15:53:34,005 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:53:34,005 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 15:53:34,005 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:53:34,005 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 15:53:44,797 [Worker-1780] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 15:53:44,797 [Worker-1780] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 15:53:48,531 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:53:48,532 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 15:53:48,532 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:53:48,533 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 15:54:08,875 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:54:08,875 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 15:54:08,876 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:54:08,876 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 15:55:32,493 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:55:32,493 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:55:32,493 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:55:32,493 [Worker-1790] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:56:30,019 [Worker-1792] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:56:30,019 [Worker-1792] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:56:30,019 [Worker-1792] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:56:30,019 [Worker-1792] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 15:59:14,918 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:59:14,918 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 15:59:14,918 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 15:59:14,919 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:01:01,119 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:01:01,119 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:01:01,120 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:01:01,120 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:01:42,602 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:01:42,602 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:01:42,602 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:01:42,603 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:02:05,588 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:02:05,588 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:02:05,589 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:02:05,589 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:02:08,292 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:02:08,292 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:02:08,292 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:02:08,292 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:02:27,658 [Worker-1800] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:02:27,658 [Worker-1800] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-08-04 16:02:30,168 [Worker-1797] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:02:30,168 [Worker-1797] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:02:30,169 [Worker-1797] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:02:30,170 [Worker-1797] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 16:02:42,809 [Worker-1799] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:02:42,809 [Worker-1799] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 16:03:01,434 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:03:01,434 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:03:01,435 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:03:01,435 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 16:05:14,134 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:05:14,134 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:05:14,134 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:05:14,134 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:05:28,605 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:05:28,605 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:05:28,606 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:05:28,606 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:05:36,186 [Worker-1800] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:05:36,186 [Worker-1800] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-08-04 16:05:38,658 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:05:38,658 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:05:38,659 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:05:38,660 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 16:05:45,076 [Worker-1797] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:05:45,076 [Worker-1797] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2015-08-04 16:05:49,443 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:05:49,443 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:05:49,444 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:05:49,444 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 16:05:53,756 [Worker-1801] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:05:53,756 [Worker-1801] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-08-04 16:05:56,180 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:05:56,180 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:05:56,181 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:05:56,182 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 16:06:05,808 [Worker-1799] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:06:05,808 [Worker-1799] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 16:06:15,521 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:06:15,522 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:06:15,522 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:06:15,522 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 16:06:47,403 [Worker-1801] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:06:47,403 [Worker-1801] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:06:47,403 [Worker-1801] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:06:47,403 [Worker-1801] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:07:19,356 [Worker-1797] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:07:19,356 [Worker-1797] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:07:19,356 [Worker-1797] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:07:19,356 [Worker-1797] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:07:28,857 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:07:28,857 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:07:28,858 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:07:28,858 [Worker-1800] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:07:38,535 [Worker-1780] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:07:38,535 [Worker-1780] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-08-04 16:07:40,987 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:07:40,987 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:07:40,988 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:07:40,988 [Worker-1798] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 16:07:44,333 [Worker-1801] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:07:44,333 [Worker-1801] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 16:07:54,139 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:07:54,139 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:07:54,139 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:07:54,140 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 16:08:44,525 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:08:44,525 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:08:44,525 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:08:44,525 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:09:08,751 [Worker-1802] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:09:08,751 [Worker-1802] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:09:08,751 [Worker-1802] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:09:08,751 [Worker-1802] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:09:56,806 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:09:56,806 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:09:56,806 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:09:56,807 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:10:07,970 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:10:07,970 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:10:07,971 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:10:07,971 [Worker-1799] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:10:15,499 [Worker-1798] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:10:15,499 [Worker-1798] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 16:10:24,544 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:10:24,544 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:10:24,545 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:10:24,545 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:33:41,455 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:33:41,455 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:33:41,456 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:33:41,456 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:33:54,898 [Worker-1808] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:33:54,898 [Worker-1808] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:33:54,908 [Worker-1808] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:33:54,908 [Worker-1808] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:35:12,245 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:35:12,246 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:35:12,246 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:35:12,246 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:35:29,912 [Worker-1807] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:35:29,912 [Worker-1807] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:35:29,913 [Worker-1807] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:35:29,913 [Worker-1807] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:35:39,319 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:35:39,319 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:35:39,320 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:35:39,320 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:35:44,724 [Worker-1808] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:35:44,724 [Worker-1808] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 16:35:53,728 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:35:53,728 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:35:53,728 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:35:53,728 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:37:40,340 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:37:40,340 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:37:40,340 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:37:40,340 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:38:04,967 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:38:04,967 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:38:04,967 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:38:04,967 [Worker-1804] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:38:22,589 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:38:22,589 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:38:22,590 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:38:22,590 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:38:33,506 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:38:33,506 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:38:33,507 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:38:33,507 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:38:40,927 [Worker-1807] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:38:40,927 [Worker-1807] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 16:38:50,164 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:38:50,164 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:38:50,164 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:38:50,164 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:39:13,518 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:39:13,518 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:39:13,519 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:39:13,519 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:39:21,295 [Worker-1811] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:39:21,295 [Worker-1811] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:39:21,296 [Worker-1811] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:39:21,296 [Worker-1811] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:39:42,855 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:39:42,856 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-08-04 16:39:42,856 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:39:42,856 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-04 16:39:55,858 [Worker-1811] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:39:55,858 [Worker-1811] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:39:55,859 [Worker-1811] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:39:55,859 [Worker-1811] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:40:19,786 [Worker-1807] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUITests:WebUITests:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml.
+2015-08-04 16:40:20,852 [Worker-1807] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:40:20,853 [Worker-1807] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:40:20,853 [Worker-1807] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:40:20,853 [Worker-1807] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:40:24,365 [Worker-1810] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:40:24,365 [Worker-1810] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-08-04 16:40:27,552 [Worker-1808] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:40:27,552 [Worker-1808] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:40:27,552 [Worker-1808] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:40:27,553 [Worker-1808] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-04 16:40:33,028 [Worker-1780] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:40:33,028 [Worker-1780] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-04 16:44:35,829 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:44:35,830 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:44:35,830 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:44:35,831 [Worker-1780] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:44:57,810 [Worker-1810] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUITests:WebUITests:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml.
+2015-08-04 16:44:58,681 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:44:58,681 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 16:44:58,681 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 16:44:58,681 [Worker-1810] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 16:45:00,507 [Worker-1780] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-04 16:45:00,507 [Worker-1780] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install

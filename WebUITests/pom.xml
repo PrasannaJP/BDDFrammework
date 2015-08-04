@@ -75,8 +75,10 @@
         	<dependency>
             <groupId>WebUIFramework</groupId>
             <artifactId>WebUIFramework</artifactId>
+            <scope>system</scope>
             <version>0.0.1-SNAPSHOT</version>
-			</dependency>	
+            <systemPath>${basedir}\lib\WebUIFramework.jar</systemPath>
+			</dependency>
         </dependencies>
          <build>
      <plugins>
@@ -109,7 +111,7 @@
                      <argument>--format</argument>
         			<argument>json:target/cucumber-json-report.json</argument>
                      <argument>--tags</argument>
-                     <argument>@demo</argument>
+                     <argument>@Check_Search</argument>
                      <argument>--glue</argument>
                      <argument>com/webuitests/cuketests</argument>
                      <argument>src/test/resources/features</argument>

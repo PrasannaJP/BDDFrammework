@@ -36,21 +36,23 @@ public class Element<ParentPanel> {
     /**
      * Locator of the element if applicable
      */
-    protected By bylocator;
+    protected  By bylocator;
+    
+    protected String ByLocator;
 
     /**
      * Contains name of the element used for locating its parameters in properties file
      */
-    protected final Properties properties = new Properties();
-
-    {
-        PropertyReader.getProperties(properties, this.getClass().getName());
-        String panelLocator = getProperty("main");
-        if (panelLocator != null) {
-            this.locator = panelLocator;
-            this.bylocator = getByLocator();
-        }
-    }
+//    protected final Properties properties = new Properties();
+//
+//    {
+//        PropertyReader.getProperties(properties, this.getClass().getName());
+//        String panelLocator = getProperty("main");
+//        if (panelLocator != null) {
+//            this.locator = panelLocator;
+//            this.bylocator = getByLocator();
+//        }
+//    }
 
     /**
      * Searches for the property with the specified key in this property list.
@@ -61,9 +63,9 @@ public class Element<ParentPanel> {
      * @param key the property key.
      * @return the value in this property list with the specified key value.
      */
-    public String getProperty(String key) {
+    /*public String getProperty(String key) {
         return properties.getProperty(key);
-    }
+    }*/
 
 
     /**
@@ -84,17 +86,17 @@ public class Element<ParentPanel> {
      * @param locator - start it with locator type "id=", "css=", "xpath=" and etc. Locator without type is assigned to xpath
      * @param panel   - Parent panel instance
      */
-    public Element(String name, String locator, ParentPanel panel) {
-        this.name = name;
+    public Element(String name, String locator,String ByLocator, ParentPanel panel) {
+    	this.name = name;
         this.locator = locator;
-        this.bylocator = getByLocator();
+        this.bylocator = getByLocator(ByLocator);
         this.parent = panel;
     }
 
-    public Element(String name, By byLocator) {
+    public Element(String name, String byLocator,String locator) {
         this.name = name;
-        this.bylocator = byLocator;
-        this.locator = byLocator.toString();
+        this.bylocator = getByLocator(byLocator);
+        this.locator = locator;
     }
     /**
      * Replace each substring of this string "$VALUE" to [value] in [str]
@@ -129,8 +131,8 @@ public class Element<ParentPanel> {
      * @param locator - start it with locator type "id=", "css=", "xpath=" and etc. Locator without type is assigned to xpath
      * @return New Element which has the same name, parent, and new locator
      */
-    protected Element<ParentPanel> getElement(String locator) {
-        return new Element<>(getName(), locator, parent);
+	protected Element<ParentPanel> getElement(String locator) {
+        return new Element<>(getName(), locator, ByLocator, parent);
     }
 
     /**
@@ -165,10 +167,9 @@ public class Element<ParentPanel> {
      *
      * @return By Locator of the element
      */
-    public By getByLocator() {
-        String locator_body = locator.replaceAll("[\\w\\s]*=(.*)", "$1").trim();
-        String type = locator.replaceAll("([\\w\\s]*)=.*", "$1").trim();
-        switch (type) {
+    public By getByLocator(String ByLocator) {
+        String locator_body = locator;
+        switch (ByLocator) {
             case "css":
                 return By.cssSelector(locator_body);
             case "id":
@@ -1196,7 +1197,7 @@ public class Element<ParentPanel> {
      * @return WebElement
      */
     public WebElement getVisibleWebElement() {
-        Elements elements = new Elements<>(name, locator, parent);
+        Elements elements = new Elements<>(name, locator,ByLocator, parent);
         return elements.getVisibleWebElement();
     }
 

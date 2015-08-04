@@ -12,60 +12,6 @@ formatter.feature({
     }
   ]
 });
-formatter.before({
-  "duration": 2308153323,
-  "status": "passed"
-});
-formatter.background({
-  "line": 4,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 5,
-  "name": "Open default website",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "GoogleSearch.open_default_website()"
-});
-formatter.result({
-  "duration": 1798135421,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 8,
-  "name": "Open Page",
-  "description": "",
-  "id": "google-search;open-page",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 7,
-      "name": "@Open_Page"
-    }
-  ]
-});
-formatter.step({
-  "line": 9,
-  "name": "I see default page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "GoogleSearch.i_see_default_page()"
-});
-formatter.result({
-  "duration": 26739764842,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_default_page(GoogleSearch.java:47)\r\n\tat ✽.Then I see default page(GoogleSearch.feature:9)\r\n",
-  "status": "failed"
-});
-formatter.after({
-  "duration": 501501244,
-  "status": "passed"
-});
 formatter.scenarioOutline({
   "line": 12,
   "name": "Check Search",
@@ -149,7 +95,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1767856986,
+  "duration": 2498321269,
   "status": "passed"
 });
 formatter.background({
@@ -168,7 +114,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1697094013,
+  "duration": 1767554534,
   "status": "passed"
 });
 formatter.scenario({
@@ -246,15 +192,15 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 26739892222,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.webuiframework.oua.uitests.control.Input.setText(Input.java:40)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_set_text_at_default_page(GoogleSearch.java:53)\r\n\tat ✽.When I set text \u0027Selenium\u0027 at default page(GoogleSearch.feature:13)\r\n",
-  "status": "failed"
+  "duration": 625330109,
+  "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.i_did_not_see_search_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 30305566179,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -266,7 +212,8 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1615400196,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -278,7 +225,8 @@ formatter.match({
   "location": "GoogleSearch.i_click_search_button(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 30253691080,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -290,7 +238,9 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 30020747262,
+  "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:653)\r\n\tat java.util.ArrayList.get(ArrayList.java:429)\r\n\tat com.webuiframework.oua.uitests.control.Elements.getWebElement(Elements.java:374)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)\r\n\tat ✽.Then I see first link text \u0027Selenium - Web Browser Automation\u0027 at results page(GoogleSearch.feature:17)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -317,11 +267,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 402885492,
+  "duration": 467685145,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1797671781,
+  "duration": 1777798673,
   "status": "passed"
 });
 formatter.background({
@@ -340,7 +290,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1771161022,
+  "duration": 1510453168,
   "status": "passed"
 });
 formatter.scenario({
@@ -416,4 +366,11 @@ formatter.match({
     }
   ],
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
+});
+formatter.result({
+  "duration": 674500040,
+  "status": "passed"
+});
+formatter.match({
+  "location": "GoogleSearch.i_did_not_see_search_button()"
 });

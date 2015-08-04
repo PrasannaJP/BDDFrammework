@@ -39,20 +39,22 @@ public class Elements<ParentPanel> {
      * Locator of the element if applicable
      */
     protected By bylocator;
+    
+    protected String ByLocator;
     /**
      * Contains name of the element used for locating its parameters in
      * properties file
      */
     protected final Properties properties = new Properties();
 
-    {
+    /*{
         PropertyReader.getProperties(properties, this.getClass().getName());
         String panelLocator = getProperty("main");
         if (panelLocator != null) {
             this.locator = panelLocator;
             this.bylocator = getByLocator();
         }
-    }
+    }*/
 
     /**
      * Parent panel which contains current element
@@ -77,10 +79,10 @@ public class Elements<ParentPanel> {
      *                etc. Locator without type is assigned to xpath
      * @param panel   - Parent panel instance
      */
-    public Elements(String name, String locator, ParentPanel panel) {
+    public Elements(String name, String locator,String ByLocator, ParentPanel panel) {
         this.name = name;
         this.locator = locator;
-        this.bylocator = getByLocator();
+        this.bylocator = getByLocator(ByLocator);
         this.parent = panel;
     }
 
@@ -98,9 +100,9 @@ public class Elements<ParentPanel> {
      *
      * @return By Locator of the elements
      */
-    public By getByLocator() {
-        String locator_body = locator.replaceAll("[\\w\\s]*=(.*)", "$1").trim();
-        String type = locator.replaceAll("([\\w\\s]*)=.*", "$1").trim();
+    public By getByLocator(String ByLocator) {
+    	String locator_body = locator;
+        String type = ByLocator;
         switch (type) {
             case "css":
                 return By.cssSelector(locator_body);
@@ -174,8 +176,8 @@ public class Elements<ParentPanel> {
      * @param elementIndex index of element
      * @return Element
      */
-    public Element getElement(int elementIndex) {
-        return new Element<>(String.format("Element #%s", elementIndex), String.format("%s[%d]", getXPath().replace("//", "/descendant::"), elementIndex + 1), parent);
+    public Element getElement(int elementIndex,String ByLocator) {
+        return new Element<>(String.format("Element #%s", elementIndex), String.format("%s[%d]", getXPath().replace("//", "/descendant::"),elementIndex + 1),ByLocator, parent);
     }
 
     /**
@@ -185,11 +187,11 @@ public class Elements<ParentPanel> {
      * @param tag - xpath tag for numerate
      * @return Element
      */
-    public Element getElement(int elementIndex, String tag) {
+    public Element getElement(int elementIndex,String ByLocator, String tag) {
         String xpath = getXPath();
         StringBuilder b = new StringBuilder(getXPath());
         b.replace(xpath.lastIndexOf(tag), xpath.lastIndexOf(tag)+1+String.valueOf(elementIndex+1).length(), String.format("%s[%d]", tag, elementIndex+1));
-        return new Element<>(String.format("Element #%s", elementIndex), b.toString(), parent);
+        return new Element<>(String.format("Element #%s", elementIndex), b.toString(),ByLocator, parent);
     }
 
     /**
@@ -201,7 +203,7 @@ public class Elements<ParentPanel> {
         int elementIndex = 0;
         for (WebElement webEl : getWebElements()) {
             if (webEl.isDisplayed()) {
-                return new Element<>(String.format("Element #%s", elementIndex), String.format("%s[%d]", getXPath().replace("//", "/descendant::"), elementIndex + 1), parent);
+                return new Element<>(String.format("Element #%s", elementIndex), String.format("%s[%d]", getXPath().replace("//", "/descendant::"), elementIndex + 1),ByLocator, parent);
             }
             elementIndex++;
         }

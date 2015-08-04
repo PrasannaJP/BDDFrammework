@@ -3,6 +3,7 @@ package com.webuiframework.oua.uitests.control;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+
 import com.webuiframework.oua.uitests.utils.LinqUtils;
 
 import static com.webuiframework.oua.uitests.utils.Timer.alwaysDoneAction;
@@ -22,8 +23,8 @@ public class DropBox<ParentPanel> extends Element<ParentPanel> {
      * @param locator     - start it with locator type "id=", "css=", "xpath=" and etc. Locator without type is assigned to xpath
      * @param parentPanel - Panel which contains current dropbox
      */
-    public DropBox(String name, String locator, ParentPanel parentPanel) {
-        super(name, locator, parentPanel);
+    public DropBox(String name, String locator,String ByLocator, ParentPanel parentPanel) {
+        super(name, locator,ByLocator, parentPanel);
     }
 
     private Select select() { return new Select(getWebElement()); }

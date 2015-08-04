@@ -1,6 +1,7 @@
 package com.webuiframework.oua.uitests.control;
 
 import com.webuiframework.oua.uitests.utils.Timer;
+
 import org.openqa.selenium.WebElement;
 
 import static com.webuiframework.oua.uitests.utils.Timer.alwaysDoneAction;
@@ -17,8 +18,8 @@ public class CheckBox<ParentPanel> extends Element<ParentPanel> {
      * @param locator     - start it with locator type "id=", "css=", "xpath=" and etc. Locator without type is assigned to xpath
      * @param parentPanel - Panel which contains current checkbox
      */
-    public CheckBox(String name, String locator, ParentPanel parentPanel) {
-        super(name, locator, parentPanel);
+    public CheckBox(String name, String locator,String ByLocator, ParentPanel parentPanel) {
+        super(name, locator,ByLocator,parentPanel);
     }
 
     /**

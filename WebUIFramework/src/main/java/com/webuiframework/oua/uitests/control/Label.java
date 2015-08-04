@@ -12,8 +12,8 @@ public class Label<ParentPanel> extends Element<ParentPanel> {
      * @param locator     - start it with locator type "id=", "css=", "xpath=" and etc. Locator without type is assigned to xpath
      * @param parentPanel - Parent instance
      */
-    public Label(String name, String locator, ParentPanel parentPanel) {
-        super(name, locator, parentPanel);
+    public Label(String name, String locator,String ByLocator, ParentPanel parentPanel) {
+        super(name, locator,ByLocator, parentPanel);
     }
 
 }

@@ -4,6 +4,8 @@ package com.webuitests.cuketests;
 import java.net.MalformedURLException;
 import java.util.Properties;
 
+import org.junit.Assert;
+
 import com.webuiframework.oua.uitests.utils.WebDriverWrapper;
 import com.webuitests.base.TestBase;
 
@@ -43,9 +45,9 @@ public class GoogleSearch extends TestBase {
 	}
 
 	@Then("^I see default page$")
-	public void i_see_default_page() throws Throwable {
-	    org.junit.Assert.assertTrue(GoogleSearchPage.get().logo.isDisplayed());
-	    org.junit.Assert.assertTrue("check search button is visible",GoogleSearchPage.get().searchBtn.isDisplayed());
+	public void Open_DefaultPage() throws Throwable {
+		Assert.assertTrue(GoogleSearchPage.get().logo.isDisplayed());
+	    //Assert.assertTrue("check search button is visible",GoogleSearchPage.get().searchBtn.isDisplayed());
 	}
 	
 	@When("^I set text '([^\\\"]*)' at default page$")
@@ -55,7 +57,7 @@ public class GoogleSearch extends TestBase {
 	
 	@Then("^I did not see search button$")
     public void i_did_not_see_search_button() {
-		org.junit.Assert.assertFalse("check search button is not visible",GoogleSearchPage.get().searchBtn.isDisplayed());
+		Assert.assertFalse("check search button is not visible",GoogleSearchPage.get().searchBtn.isDisplayed());
     }
 	
 	@When("^I click '([^\\\"]*)' button$")

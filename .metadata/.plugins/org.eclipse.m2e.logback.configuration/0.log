@@ -5713,3 +5713,329 @@ org.apache.maven.artifact.InvalidArtifactRTException: For artifact {WebUITests:W
 2015-07-31 13:28:18,319 [Worker-627] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
 2015-07-31 13:28:18,319 [Worker-627] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-07-31 13:28:18,319 [Worker-627] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-31 13:39:10,581 [Worker-634] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:558) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:567) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:511) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:466) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:336) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:289) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: Duplicated tag: 'name' (position: START_TAG seen ...</packaging>\r\n\r\n  <name>... @11:9) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:127) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:91) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:556) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'name' (position: START_TAG seen ...</packaging>\r\n\r\n  <name>... @11:9) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2056) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	... 26 common frames omitted
+2015-07-31 13:39:10,645 [Worker-634] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUITests:WebUITests:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml.
+2015-07-31 13:39:11,959 [Worker-636] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml: Duplicated tag: 'name' (position: START_TAG seen ...</packaging>\r\n\r\n  <name>... @11:9)  @ line 11, column 9
+ for project  at F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml: Duplicated tag: 'name' (position: START_TAG seen ...</packaging>\r\n\r\n  <name>... @11:9)  @ line 11, column 9
+ for project  at F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:152) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:105) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:629) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:779) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:913) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:775) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:188) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:753) [org.eclipse.m2e.editor_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.editor.pom.DependencyTreePage$1.run(DependencyTreePage.java:215) [org.eclipse.m2e.editor_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml: Duplicated tag: 'name' (position: START_TAG seen ...</packaging>\r\n\r\n  <name>... @11:9)  @ line 11, column 9
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:195) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:499) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:256) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:145) ~[maven-core-3.2.1.jar:3.2.1]
+	... 15 common frames omitted
+2015-07-31 13:39:11,961 [Worker-636] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml: Duplicated tag: 'name' (position: START_TAG seen ...</packaging>\r\n\r\n  <name>... @11:9)  @ line 11, column 9
+ for project  at F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml: Duplicated tag: 'name' (position: START_TAG seen ...</packaging>\r\n\r\n  <name>... @11:9)  @ line 11, column 9
+ for project  at F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:152) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:105) ~[maven-core-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:629) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:779) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:913) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:775) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:188) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:753) [org.eclipse.m2e.editor_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readDependencyTree(MavenPomEditor.java:697) [org.eclipse.m2e.editor_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.editor.pom.DependencyTreePage$1.run(DependencyTreePage.java:221) [org.eclipse.m2e.editor_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml: Duplicated tag: 'name' (position: START_TAG seen ...</packaging>\r\n\r\n  <name>... @11:9)  @ line 11, column 9
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:195) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:499) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:256) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:145) ~[maven-core-3.2.1.jar:3.2.1]
+	... 16 common frames omitted
+2015-07-31 13:39:12,811 [Worker-634] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 13:39:12,811 [Worker-634] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-07-31 13:39:12,811 [Worker-634] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 13:39:12,811 [Worker-634] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-31 13:39:14,076 [Worker-638] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:558) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:567) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:511) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:466) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:336) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:289) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241) [org.eclipse.core.resources_3.9.1.v20140825-1431.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: Duplicated tag: 'name' (position: START_TAG seen ...</packaging>\r\n\r\n  <name>... @11:9) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:127) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:91) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:556) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'name' (position: START_TAG seen ...</packaging>\r\n\r\n  <name>... @11:9) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2056) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557) ~[maven-model-3.2.1.jar:3.2.1]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.2.1.jar:3.2.1]
+	... 26 common frames omitted
+2015-07-31 13:39:22,487 [Worker-637] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUIFramework:WebUIFramework:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml.
+2015-07-31 13:39:23,225 [Worker-637] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUITests:WebUITests:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml.
+2015-07-31 13:39:23,864 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 13:39:23,864 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 13:39:23,864 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 13:39:23,864 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 13:39:24,712 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 13:39:24,712 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-07-31 13:39:24,713 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 13:39:24,713 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-31 13:39:25,929 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 13:39:25,929 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 13:39:25,929 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 13:39:25,929 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 13:40:04,559 [Worker-642] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-07-31 13:40:04,559 [Worker-642] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install mvn install -DperformRelease=true -DcreateChecksum=true
+2015-07-31 13:40:40,734 [Worker-639] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-07-31 13:40:40,734 [Worker-639] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install -DperformRelease=true -DcreateChecksum=true
+2015-07-31 14:38:46,137 [Worker-637] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUIFramework:WebUIFramework:0.0.1 @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml.
+2015-07-31 14:38:46,834 [Worker-637] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUITests:WebUITests:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml.
+2015-07-31 14:38:47,424 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:38:47,424 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:38:47,425 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:38:47,425 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:38:48,269 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:38:48,269 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-07-31 14:38:48,269 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:38:48,269 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-31 14:38:51,738 [Worker-657] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:38:51,738 [Worker-657] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-07-31 14:38:54,777 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:38:54,777 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:38:54,777 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:38:54,777 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:39:03,780 [Worker-655] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:39:03,780 [Worker-655] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-07-31 14:39:05,228 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:39:05,228 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:39:05,229 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:39:05,229 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:39:23,485 [Worker-656] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUIFramework:WebUIFramework:0.0.1 @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml.
+2015-07-31 14:39:24,199 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:39:24,199 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:39:24,200 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:39:24,200 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:39:26,368 [Worker-637] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:39:26,368 [Worker-637] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-07-31 14:39:29,315 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:39:29,315 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:39:29,316 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:39:29,316 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:39:51,435 [Worker-655] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUIFramework:WebUIFramework:0.0.1 @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml.
+2015-07-31 14:39:52,168 [Worker-655] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:39:52,168 [Worker-655] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:39:52,169 [Worker-655] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:39:52,169 [Worker-655] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:39:54,971 [Worker-637] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:39:54,971 [Worker-637] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-07-31 14:39:56,311 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:39:56,311 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:39:56,313 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:39:56,313 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:40:00,044 [Worker-659] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:40:00,044 [Worker-659] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-07-31 14:40:03,057 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:40:03,058 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:40:03,058 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:40:03,058 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:40:09,852 [Worker-659] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUIFramework:WebUIFramework:0.0.1 @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml.
+2015-07-31 14:40:10,554 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:40:10,554 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:40:10,555 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:40:10,555 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:40:17,736 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3/maven-compiler-plugin-2.3.jar
+2015-07-31 14:40:18,404 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3/maven-compiler-plugin-2.3.jar
+2015-07-31 14:40:18,709 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3/maven-compiler-plugin-2.3.pom
+2015-07-31 14:40:19,154 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3/maven-compiler-plugin-2.3.pom
+2015-07-31 14:40:19,458 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.8/plexus-compiler-api-1.8.pom
+2015-07-31 14:40:19,922 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.8/plexus-compiler-api-1.8.pom
+2015-07-31 14:40:20,163 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/1.8/plexus-compiler-1.8.pom
+2015-07-31 14:40:20,612 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/1.8/plexus-compiler-1.8.pom
+2015-07-31 14:40:20,946 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.8/plexus-compiler-manager-1.8.pom
+2015-07-31 14:40:21,394 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.8/plexus-compiler-manager-1.8.pom
+2015-07-31 14:40:21,637 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.8/plexus-compiler-javac-1.8.pom
+2015-07-31 14:40:22,087 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.8/plexus-compiler-javac-1.8.pom
+2015-07-31 14:40:22,330 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/1.8/plexus-compilers-1.8.pom
+2015-07-31 14:40:22,784 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/1.8/plexus-compilers-1.8.pom
+2015-07-31 14:40:23,045 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.8/plexus-compiler-api-1.8.jar
+2015-07-31 14:40:23,505 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.8/plexus-compiler-api-1.8.jar
+2015-07-31 14:40:23,726 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.8/plexus-compiler-manager-1.8.jar
+2015-07-31 14:40:24,183 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.8/plexus-compiler-manager-1.8.jar
+2015-07-31 14:40:24,403 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.8/plexus-compiler-javac-1.8.jar
+2015-07-31 14:40:24,887 [Worker-659] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.8/plexus-compiler-javac-1.8.jar
+2015-07-31 14:40:24,990 [Worker-659] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUIFramework:WebUIFramework:0.0.1 @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml.
+2015-07-31 14:40:25,680 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:40:25,680 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:40:25,680 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:40:25,680 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:40:25,771 [Worker-637] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:40:25,771 [Worker-637] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-07-31 14:41:53,996 [Worker-659] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUIFramework:WebUIFramework:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml.
+2015-07-31 14:41:54,537 [Worker-659] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUITests:WebUITests:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml.
+2015-07-31 14:41:55,111 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:41:55,111 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:41:55,111 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:41:55,111 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:41:55,951 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:41:55,951 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-07-31 14:41:55,951 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:41:55,951 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-07-31 14:41:57,207 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:41:57,207 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:41:57,208 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:41:57,208 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:41:59,418 [Worker-657] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:41:59,418 [Worker-657] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-07-31 14:42:02,364 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:42:02,365 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:42:02,365 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:42:02,365 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:42:14,188 [Worker-656] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:42:14,188 [Worker-656] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-07-31 14:42:15,635 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:42:15,635 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:42:15,636 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:42:15,637 [Worker-637] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:42:19,458 [Worker-657] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:42:19,458 [Worker-657] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-07-31 14:42:22,370 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:42:22,370 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:42:22,370 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:42:22,371 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:42:44,646 [Worker-657] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:42:44,646 [Worker-657] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2015-07-31 14:42:47,463 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:42:47,463 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:42:47,463 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:42:47,464 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:42:55,660 [Worker-657] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:42:55,660 [Worker-657] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-07-31 14:42:58,629 [Worker-658] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:42:58,630 [Worker-658] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:42:58,630 [Worker-658] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:42:58,630 [Worker-658] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:43:21,555 [Worker-660] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-07-31 14:43:21,624 [Worker-660] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUIFramework:WebUIFramework:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml.
+2015-07-31 14:43:22,230 [Worker-660] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebUIFramework/src/main/java
+2015-07-31 14:43:22,231 [Worker-660] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebUIFramework/src/test/java
+2015-07-31 14:43:22,481 [Worker-660] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUIFramework:WebUIFramework:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\pom.xml.
+2015-07-31 14:43:22,684 [Worker-660] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2015-07-31 14:43:23,243 [Worker-662] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:43:23,243 [Worker-662] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:43:23,243 [Worker-662] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:43:23,243 [Worker-662] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-07-31 14:43:28,204 [Worker-663] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework
+2015-07-31 14:43:28,204 [Worker-663] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-07-31 14:43:32,726 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:43:32,726 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\main\resources
+2015-07-31 14:43:32,727 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-07-31 14:43:32,727 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-03 10:54:06,296 [Worker-1349] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-03 10:54:06,297 [Worker-1349] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-03 10:54:21,184 [Worker-1366] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-03 10:54:21,184 [Worker-1366] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-03 10:54:21,185 [Worker-1366] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-03 10:54:21,185 [Worker-1366] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-03 10:54:51,863 [Worker-1366] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUITests:WebUITests:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml.
+2015-08-03 10:54:52,831 [Worker-1366] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-03 10:54:52,831 [Worker-1366] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-03 10:54:52,832 [Worker-1366] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-03 10:54:52,832 [Worker-1366] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-03 10:54:54,951 [Worker-1349] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests
+2015-08-03 10:54:54,952 [Worker-1349] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-08-03 10:55:10,336 [Worker-1367] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-03 10:55:10,336 [Worker-1367] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-03 10:55:10,338 [Worker-1367] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-03 10:55:10,338 [Worker-1367] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-04 10:46:24,859 [Worker-1654] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebUITests:WebUITests:0.0.1-SNAPSHOT @ F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\pom.xml.
+2015-08-04 10:46:25,984 [Worker-1654] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 10:46:25,984 [Worker-1654] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\Framework FRM GIT\BDDFrammework\WebUITests\src\main\resources
+2015-08-04 10:46:25,985 [Worker-1654] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-04 10:46:25,985 [Worker-1654] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

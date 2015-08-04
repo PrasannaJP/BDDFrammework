@@ -64,7 +64,7 @@ public class GoogleSearch extends TestBase {
     public void i_click_search_button(String value) {
         switch (value) {
             case "Search":
-            	GoogleSearchPage.get().searchBtn.click();
+            	GoogleSearchPage.get().searchBtn2.click();
                 break;
             case "Search2":
             	GoogleSearchPage.get().searchBtn2.click();
@@ -74,7 +74,7 @@ public class GoogleSearch extends TestBase {
 	
 	@Then("^I see first link text '([^\\\"]*)' at results page$")
     public void i_see_first_link_text_at_results_page(String value) {
-		org.junit.Assert.assertEquals(GoogleSearchPage.get().resultsLinks.getWebElement(0).getText(), value, "check first link text");
+		Assert.assertEquals(GoogleSearchPage.get().resultsLinks.getWebElement(0).getText(), value, "check first link text");
     }
 	
 	@When("^I click at '([^\\\"]*)' results link$")

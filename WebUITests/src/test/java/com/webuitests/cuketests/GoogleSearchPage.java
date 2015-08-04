@@ -14,12 +14,12 @@ public class GoogleSearchPage extends BasePanel<GoogleSearchPage> {
 	public static String inputfieldID = "lst-ib";
 	public static String SearchButtonID = "btnK";
 	public static String Search2ButtonID = "btnG";
-	public static String resultsLinksXPATH = "//ol[@id='rso']/div//li//h3/a";
+	public static String resultsLinksXPATH = "//h3/a";
 
     public final Image<GoogleSearchPage> logo = new Image<GoogleSearchPage>("logo", logoImageID,"id", this);
     public final Input<GoogleSearchPage> textField = new Input<GoogleSearchPage>("textField", inputfieldID,"id", this);
-    public final Button<GoogleSearchPage> searchBtn = new Button<GoogleSearchPage>("searchBtn", SearchButtonID,"id", this);
-    public final Button<GoogleSearchPage> searchBtn2 = new Button<GoogleSearchPage>("searchBtn2", Search2ButtonID,"id", this);
+    public final Button<GoogleSearchPage> searchBtn = new Button<GoogleSearchPage>("searchBtn", SearchButtonID,"name", this);
+    public final Button<GoogleSearchPage> searchBtn2 = new Button<GoogleSearchPage>("searchBtn2", Search2ButtonID,"name", this);
     public final Elements<GoogleSearchPage> resultsLinks = new Elements<GoogleSearchPage>("resultsLinks", resultsLinksXPATH,"xpath", this);
     
 

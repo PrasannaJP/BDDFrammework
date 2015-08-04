@@ -95,7 +95,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2498321269,
+  "duration": 2283259265,
   "status": "passed"
 });
 formatter.background({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1767554534,
+  "duration": 4852708140,
   "status": "passed"
 });
 formatter.scenario({
@@ -192,15 +192,16 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 625330109,
+  "duration": 705271696,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.i_did_not_see_search_button()"
 });
 formatter.result({
-  "duration": 30305566179,
-  "status": "passed"
+  "duration": 30080183971,
+  "error_message": "java.lang.NullPointerException\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:564)\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:552)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_did_not_see_search_button(GoogleSearch.java:60)\r\n\tat ✽.Then I did not see search button(GoogleSearch.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -212,8 +213,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 1615400196,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -225,8 +225,7 @@ formatter.match({
   "location": "GoogleSearch.i_click_search_button(String)"
 });
 formatter.result({
-  "duration": 30253691080,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -238,9 +237,7 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
 });
 formatter.result({
-  "duration": 30020747262,
-  "error_message": "java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:653)\r\n\tat java.util.ArrayList.get(ArrayList.java:429)\r\n\tat com.webuiframework.oua.uitests.control.Elements.getWebElement(Elements.java:374)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)\r\n\tat ✽.Then I see first link text \u0027Selenium - Web Browser Automation\u0027 at results page(GoogleSearch.feature:17)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -267,11 +264,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 467685145,
+  "duration": 382318131,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1777798673,
+  "duration": 1868705513,
   "status": "passed"
 });
 formatter.background({
@@ -290,7 +287,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1510453168,
+  "duration": 1719901090,
   "status": "passed"
 });
 formatter.scenario({
@@ -368,9 +365,79 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 674500040,
+  "duration": 659590833,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.i_did_not_see_search_button()"
+});
+formatter.result({
+  "duration": 30292765987,
+  "error_message": "java.lang.NullPointerException\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:564)\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:552)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_did_not_see_search_button(GoogleSearch.java:60)\r\n\tat ✽.Then I did not see search button(GoogleSearch.feature:14)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Cucumber",
+      "offset": 12
+    }
+  ],
+  "location": "GoogleSearch.i_set_text_at_default_page(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Search2",
+      "offset": 9
+    }
+  ],
+  "location": "GoogleSearch.i_click_search_button(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Cucumber - Making BDD fun",
+      "offset": 23
+    }
+  ],
+  "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 12
+    }
+  ],
+  "location": "GoogleSearch.i_click_at_results_link(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Cucumber - Making BDD fun",
+      "offset": 24
+    }
+  ],
+  "location": "GoogleSearch.i_see_first_link_title_at_new_tab(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.after({
+  "duration": 382172640,
+  "status": "passed"
+});
 });

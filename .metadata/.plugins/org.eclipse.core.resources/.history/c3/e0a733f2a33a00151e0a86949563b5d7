@@ -11,6 +11,7 @@ Feature: Google Search
   @Check_Search
   Scenario Outline: Check Search
     When I set text '<text>' at default page
+    Then I did not see search button
     When I set text '<text>' at default page
     When I click 'Search2' button
     Then I see first link text '<title>' at results page

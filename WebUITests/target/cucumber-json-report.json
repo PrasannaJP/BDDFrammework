@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4852708140,
+              "duration": 2873937153,
               "status": "passed"
             },
             "line": 5,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 2283259265,
+              "duration": 2115904735,
               "status": "passed"
             },
             "match": {
@@ -35,14 +35,14 @@
             }
           }
         ],
-        "line": 23,
+        "line": 22,
         "name": "Check Search",
         "description": "",
         "id": "google-search;check-search;;2",
         "after": [
           {
             "result": {
-              "duration": 382318131,
+              "duration": 262628817,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 705271696,
+              "duration": 804937579,
               "status": "passed"
             },
             "line": 13,
@@ -76,22 +76,10 @@
           },
           {
             "result": {
-              "duration": 30080183971,
-              "error_message": "java.lang.NullPointerException\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:564)\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:552)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_did_not_see_search_button(GoogleSearch.java:60)\r\n\tat ✽.Then I did not see search button(GoogleSearch.feature:14)\r\n",
-              "status": "failed"
+              "duration": 2088667426,
+              "status": "passed"
             },
             "line": 14,
-            "name": "I did not see search button",
-            "match": {
-              "location": "GoogleSearch.i_did_not_see_search_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 15,
             "name": "I set text \u0027Selenium\u0027 at default page",
             "match": {
               "arguments": [
@@ -109,9 +97,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1040409681,
+              "status": "passed"
             },
-            "line": 16,
+            "line": 15,
             "name": "I click \u0027Search2\u0027 button",
             "match": {
               "arguments": [
@@ -126,9 +115,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 245565919,
+              "error_message": "org.junit.ComparisonFailure: Selenium - Web Browser Automation expected:\u003c[Selenium - Web Browser Automation]\u003e but was:\u003c[check first link text]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)\r\n\tat ✽.Then I see first link text \u0027Selenium - Web Browser Automation\u0027 at results page(GoogleSearch.feature:16)\r\n",
+              "status": "failed"
             },
-            "line": 17,
+            "line": 16,
             "name": "I see first link text \u0027Selenium - Web Browser Automation\u0027 at results page",
             "match": {
               "arguments": [
@@ -148,7 +139,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 18,
+            "line": 17,
             "name": "I click at \u00271\u0027 results link",
             "match": {
               "arguments": [
@@ -165,7 +156,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 19,
+            "line": 18,
             "name": "I see first link title \u0027Selenium - Web Browser Automation\u0027 at new tab",
             "match": {
               "arguments": [
@@ -202,7 +193,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1719901090,
+              "duration": 6620031157,
               "status": "passed"
             },
             "line": 5,
@@ -218,7 +209,7 @@
         "before": [
           {
             "result": {
-              "duration": 1868705513,
+              "duration": 1659076783,
               "status": "passed"
             },
             "match": {
@@ -226,14 +217,14 @@
             }
           }
         ],
-        "line": 24,
+        "line": 23,
         "name": "Check Search",
         "description": "",
         "id": "google-search;check-search;;3",
         "after": [
           {
             "result": {
-              "duration": 382172640,
+              "duration": 189208369,
               "status": "passed"
             },
             "match": {
@@ -246,7 +237,7 @@
         "steps": [
           {
             "result": {
-              "duration": 659590833,
+              "duration": 790452166,
               "status": "passed"
             },
             "line": 13,
@@ -267,22 +258,10 @@
           },
           {
             "result": {
-              "duration": 30292765987,
-              "error_message": "java.lang.NullPointerException\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:564)\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:552)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_did_not_see_search_button(GoogleSearch.java:60)\r\n\tat ✽.Then I did not see search button(GoogleSearch.feature:14)\r\n",
-              "status": "failed"
+              "duration": 1170700521,
+              "status": "passed"
             },
             "line": 14,
-            "name": "I did not see search button",
-            "match": {
-              "location": "GoogleSearch.i_did_not_see_search_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 15,
             "name": "I set text \u0027Cucumber\u0027 at default page",
             "match": {
               "arguments": [
@@ -300,9 +279,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 157749103,
+              "status": "passed"
             },
-            "line": 16,
+            "line": 15,
             "name": "I click \u0027Search2\u0027 button",
             "match": {
               "arguments": [
@@ -317,9 +297,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1237654165,
+              "error_message": "org.junit.ComparisonFailure: Cucumber - Wikipedia, the free encyclopedia expected:\u003c[Cucumber - Making BDD fun]\u003e but was:\u003c[check first link text]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)\r\n\tat ✽.Then I see first link text \u0027Cucumber - Making BDD fun\u0027 at results page(GoogleSearch.feature:16)\r\n",
+              "status": "failed"
             },
-            "line": 17,
+            "line": 16,
             "name": "I see first link text \u0027Cucumber - Making BDD fun\u0027 at results page",
             "match": {
               "arguments": [
@@ -339,7 +321,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 18,
+            "line": 17,
             "name": "I click at \u00271\u0027 results link",
             "match": {
               "arguments": [
@@ -356,7 +338,7 @@
             "result": {
               "status": "skipped"
             },
-            "line": 19,
+            "line": 18,
             "name": "I see first link title \u0027Cucumber - Making BDD fun\u0027 at new tab",
             "match": {
               "arguments": [

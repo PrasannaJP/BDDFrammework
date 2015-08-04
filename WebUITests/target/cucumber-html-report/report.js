@@ -33,36 +33,31 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "I did not see search button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
   "name": "I set text \u0027\u003ctext\u003e\u0027 at default page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 16,
+  "line": 15,
   "name": "I click \u0027Search2\u0027 button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "I see first link text \u0027\u003ctitle\u003e\u0027 at results page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "I click at \u00271\u0027 results link",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "I see first link title \u0027\u003ctitle\u003e\u0027 at new tab",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 21,
+  "line": 20,
   "name": "",
   "description": "",
   "id": "google-search;check-search;",
@@ -72,7 +67,7 @@ formatter.examples({
         "text",
         "title"
       ],
-      "line": 22,
+      "line": 21,
       "id": "google-search;check-search;;1"
     },
     {
@@ -80,7 +75,7 @@ formatter.examples({
         "Selenium",
         "Selenium - Web Browser Automation"
       ],
-      "line": 23,
+      "line": 22,
       "id": "google-search;check-search;;2"
     },
     {
@@ -88,14 +83,14 @@ formatter.examples({
         "Cucumber",
         "Cucumber - Making BDD fun"
       ],
-      "line": 24,
+      "line": 23,
       "id": "google-search;check-search;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2283259265,
+  "duration": 2115904735,
   "status": "passed"
 });
 formatter.background({
@@ -114,11 +109,11 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 4852708140,
+  "duration": 2873937153,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 23,
+  "line": 22,
   "name": "Check Search",
   "description": "",
   "id": "google-search;check-search;;2",
@@ -145,11 +140,6 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "I did not see search button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
   "name": "I set text \u0027Selenium\u0027 at default page",
   "matchedColumns": [
     0
@@ -157,12 +147,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 16,
+  "line": 15,
   "name": "I click \u0027Search2\u0027 button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "I see first link text \u0027Selenium - Web Browser Automation\u0027 at results page",
   "matchedColumns": [
     1
@@ -170,12 +160,12 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "I click at \u00271\u0027 results link",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "I see first link title \u0027Selenium - Web Browser Automation\u0027 at new tab",
   "matchedColumns": [
     1
@@ -192,16 +182,8 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 705271696,
+  "duration": 804937579,
   "status": "passed"
-});
-formatter.match({
-  "location": "GoogleSearch.i_did_not_see_search_button()"
-});
-formatter.result({
-  "duration": 30080183971,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:564)\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:552)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_did_not_see_search_button(GoogleSearch.java:60)\r\n\tat ✽.Then I did not see search button(GoogleSearch.feature:14)\r\n",
-  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -213,7 +195,8 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2088667426,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -225,7 +208,8 @@ formatter.match({
   "location": "GoogleSearch.i_click_search_button(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1040409681,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -237,7 +221,9 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 245565919,
+  "error_message": "org.junit.ComparisonFailure: Selenium - Web Browser Automation expected:\u003c[Selenium - Web Browser Automation]\u003e but was:\u003c[check first link text]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)\r\n\tat ✽.Then I see first link text \u0027Selenium - Web Browser Automation\u0027 at results page(GoogleSearch.feature:16)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -264,11 +250,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 382318131,
+  "duration": 262628817,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1868705513,
+  "duration": 1659076783,
   "status": "passed"
 });
 formatter.background({
@@ -287,11 +273,11 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1719901090,
+  "duration": 6620031157,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 24,
+  "line": 23,
   "name": "Check Search",
   "description": "",
   "id": "google-search;check-search;;3",
@@ -318,11 +304,6 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "I did not see search button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
   "name": "I set text \u0027Cucumber\u0027 at default page",
   "matchedColumns": [
     0
@@ -330,12 +311,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 16,
+  "line": 15,
   "name": "I click \u0027Search2\u0027 button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "I see first link text \u0027Cucumber - Making BDD fun\u0027 at results page",
   "matchedColumns": [
     1
@@ -343,12 +324,12 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "I click at \u00271\u0027 results link",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "I see first link title \u0027Cucumber - Making BDD fun\u0027 at new tab",
   "matchedColumns": [
     1
@@ -365,16 +346,8 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 659590833,
+  "duration": 790452166,
   "status": "passed"
-});
-formatter.match({
-  "location": "GoogleSearch.i_did_not_see_search_button()"
-});
-formatter.result({
-  "duration": 30292765987,
-  "error_message": "java.lang.NullPointerException\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:564)\r\n\tat com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:552)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_did_not_see_search_button(GoogleSearch.java:60)\r\n\tat ✽.Then I did not see search button(GoogleSearch.feature:14)\r\n",
-  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -386,7 +359,8 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1170700521,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -398,7 +372,8 @@ formatter.match({
   "location": "GoogleSearch.i_click_search_button(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 157749103,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -410,7 +385,9 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1237654165,
+  "error_message": "org.junit.ComparisonFailure: Cucumber - Wikipedia, the free encyclopedia expected:\u003c[Cucumber - Making BDD fun]\u003e but was:\u003c[check first link text]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)\r\n\tat ✽.Then I see first link text \u0027Cucumber - Making BDD fun\u0027 at results page(GoogleSearch.feature:16)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -437,7 +414,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 382172640,
+  "duration": 189208369,
   "status": "passed"
 });
 });

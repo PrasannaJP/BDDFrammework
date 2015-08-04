@@ -14,7 +14,7 @@ public class GoogleSearchPage extends BasePanel<GoogleSearchPage> {
 	public static String inputfieldID = "lst-ib";
 	public static String SearchButtonID = "btnK";
 	public static String Search2ButtonID = "btnG";
-	public static String resultsLinksXPATH = "//ol[@id='rso']/div[@class='srg']/div/div/h3/a";
+	public static String resultsLinksXPATH = "//h3/a";
 
     public final Image<GoogleSearchPage> logo = new Image<GoogleSearchPage>("logo", logoImageID,"id", this);
     public final Input<GoogleSearchPage> textField = new Input<GoogleSearchPage>("textField", inputfieldID,"id", this);

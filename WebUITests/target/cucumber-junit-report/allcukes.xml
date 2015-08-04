@@ -1,38 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="73.226877">
-<testcase classname="Google Search" name="Check Search" time="38.303741">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:564)&#13;&#10;&#9;at com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:552)&#13;&#10;&#9;at com.webuitests.cuketests.GoogleSearch.i_did_not_see_search_button(GoogleSearch.java:60)&#13;&#10;&#9;at ✽.Then I did not see search button(GoogleSearch.feature:14)&#13;&#10;"><![CDATA[Given Open default website..................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="21.256923">
+<testcase classname="Google Search" name="Check Search" time="9.432051">
+<failure message="org.junit.ComparisonFailure: Selenium - Web Browser Automation expected:&lt;[Selenium - Web Browser Automation]&gt; but was:&lt;[check first link text]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)&#13;&#10;&#9;at ✽.Then I see first link text 'Selenium - Web Browser Automation' at results page(GoogleSearch.feature:16)&#13;&#10;"><![CDATA[Given Open default website..................................................passed
 When I set text 'Selenium' at default page..................................passed
-Then I did not see search button............................................failed
-When I set text 'Selenium' at default page..................................skipped
-When I click 'Search2' button...............................................skipped
-Then I see first link text 'Selenium - Web Browser Automation' at results page.skipped
+When I set text 'Selenium' at default page..................................passed
+When I click 'Search2' button...............................................passed
+Then I see first link text 'Selenium - Web Browser Automation' at results page.failed
 When I click at '1' results link............................................skipped
 Then I see first link title 'Selenium - Web Browser Automation' at new tab..skipped
 
 StackTrace:
-java.lang.NullPointerException
-	at com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:564)
-	at com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:552)
-	at com.webuitests.cuketests.GoogleSearch.i_did_not_see_search_button(GoogleSearch.java:60)
-	at ✽.Then I did not see search button(GoogleSearch.feature:14)
+org.junit.ComparisonFailure: Selenium - Web Browser Automation expected:<[Selenium - Web Browser Automation]> but was:<[check first link text]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)
+	at ✽.Then I see first link text 'Selenium - Web Browser Automation' at results page(GoogleSearch.feature:16)
 ]]></failure>
 </testcase>
-<testcase classname="Google Search" name="Check Search 2" time="34.923136">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:564)&#13;&#10;&#9;at com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:552)&#13;&#10;&#9;at com.webuitests.cuketests.GoogleSearch.i_did_not_see_search_button(GoogleSearch.java:60)&#13;&#10;&#9;at ✽.Then I did not see search button(GoogleSearch.feature:14)&#13;&#10;"><![CDATA[Given Open default website..................................................passed
+<testcase classname="Google Search" name="Check Search 2" time="11.824872">
+<failure message="org.junit.ComparisonFailure: Cucumber - Wikipedia, the free encyclopedia expected:&lt;[Cucumber - Making BDD fun]&gt; but was:&lt;[check first link text]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)&#13;&#10;&#9;at ✽.Then I see first link text 'Cucumber - Making BDD fun' at results page(GoogleSearch.feature:16)&#13;&#10;"><![CDATA[Given Open default website..................................................passed
 When I set text 'Cucumber' at default page..................................passed
-Then I did not see search button............................................failed
-When I set text 'Cucumber' at default page..................................skipped
-When I click 'Search2' button...............................................skipped
-Then I see first link text 'Cucumber - Making BDD fun' at results page......skipped
+When I set text 'Cucumber' at default page..................................passed
+When I click 'Search2' button...............................................passed
+Then I see first link text 'Cucumber - Making BDD fun' at results page......failed
 When I click at '1' results link............................................skipped
 Then I see first link title 'Cucumber - Making BDD fun' at new tab..........skipped
 
 StackTrace:
-java.lang.NullPointerException
-	at com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:564)
-	at com.webuiframework.oua.uitests.control.Element.isDisplayed(Element.java:552)
-	at com.webuitests.cuketests.GoogleSearch.i_did_not_see_search_button(GoogleSearch.java:60)
-	at ✽.Then I did not see search button(GoogleSearch.feature:14)
+org.junit.ComparisonFailure: Cucumber - Wikipedia, the free encyclopedia expected:<[Cucumber - Making BDD fun]> but was:<[check first link text]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)
+	at ✽.Then I see first link text 'Cucumber - Making BDD fun' at results page(GoogleSearch.feature:16)
 ]]></failure>
 </testcase>
 </testsuite>

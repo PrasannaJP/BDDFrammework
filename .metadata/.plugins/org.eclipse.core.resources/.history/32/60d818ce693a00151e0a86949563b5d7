@@ -6,8 +6,8 @@ import com.webuiframework.oua.uitests.utils.TestBaseWebDriver;
 
 public class TestBase extends TestBaseWebDriver {
 	public static Properties testproperties;
-	public static String URL = testproperties.getProperty("webuitests.URL");
-	//public static String URL = "http://google.com";
+	//public static String URL = testproperties.getProperty("webuitests.URL");
+	public static String URL = "http://google.com";
 	
 	public TestBase(){
 		System.out.print("Invoking Test Base");

@@ -90,7 +90,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2475201778,
+  "duration": 2315602947,
   "status": "passed"
 });
 formatter.background({
@@ -109,7 +109,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1455693907,
+  "duration": 1467938697,
   "status": "passed"
 });
 formatter.scenario({
@@ -182,7 +182,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 712751806,
+  "duration": 746963630,
   "status": "passed"
 });
 formatter.match({
@@ -195,7 +195,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 1734352998,
+  "duration": 1898443940,
   "status": "passed"
 });
 formatter.match({
@@ -208,7 +208,7 @@ formatter.match({
   "location": "GoogleSearch.i_click_search_button(String)"
 });
 formatter.result({
-  "duration": 197891346,
+  "duration": 290052670,
   "status": "passed"
 });
 formatter.match({
@@ -221,7 +221,7 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
 });
 formatter.result({
-  "duration": 148669195,
+  "duration": 327807290,
   "status": "passed"
 });
 formatter.match({
@@ -234,7 +234,7 @@ formatter.match({
   "location": "GoogleSearch.i_click_at_results_link(int)"
 });
 formatter.result({
-  "duration": 125938485,
+  "duration": 125812916,
   "status": "passed"
 });
 formatter.match({
@@ -247,15 +247,15 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_title_at_new_tab(String)"
 });
 formatter.result({
-  "duration": 1921816984,
+  "duration": 87369385427,
   "status": "passed"
 });
 formatter.after({
-  "duration": 497363503,
+  "duration": 436623715,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1755278049,
+  "duration": 1760762035,
   "status": "passed"
 });
 formatter.background({
@@ -274,7 +274,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1407674018,
+  "duration": 1495961718,
   "status": "passed"
 });
 formatter.scenario({
@@ -347,7 +347,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 670845560,
+  "duration": 845415780,
   "status": "passed"
 });
 formatter.match({
@@ -360,7 +360,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 899037676,
+  "duration": 860730069,
   "status": "passed"
 });
 formatter.match({
@@ -373,7 +373,7 @@ formatter.match({
   "location": "GoogleSearch.i_click_search_button(String)"
 });
 formatter.result({
-  "duration": 157886746,
+  "duration": 158970684,
   "status": "passed"
 });
 formatter.match({
@@ -386,7 +386,7 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
 });
 formatter.result({
-  "duration": 1847774727,
+  "duration": 2042216245,
   "status": "passed"
 });
 formatter.match({
@@ -399,7 +399,7 @@ formatter.match({
   "location": "GoogleSearch.i_click_at_results_link(int)"
 });
 formatter.result({
-  "duration": 200567535,
+  "duration": 199166656,
   "status": "passed"
 });
 formatter.match({
@@ -412,11 +412,11 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_title_at_new_tab(String)"
 });
 formatter.result({
-  "duration": 3075710877,
+  "duration": 4377498514,
   "status": "passed"
 });
 formatter.after({
-  "duration": 318552008,
+  "duration": 336289538,
   "status": "passed"
 });
 });

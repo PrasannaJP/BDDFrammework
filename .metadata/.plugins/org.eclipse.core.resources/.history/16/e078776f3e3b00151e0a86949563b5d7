@@ -23,7 +23,6 @@ public class GoogleSearch extends TestBase {
 	public void setUp(Scenario scenario) throws MalformedURLException{
 		setBrowserType("firefox");
 		initWebDriver();
-		takePassedScreenshot(true);
 	}
 	
 	@After
@@ -77,7 +76,6 @@ public class GoogleSearch extends TestBase {
 
     @Then("^I see first link title '([^\\\"]*)' at new tab$")
     public void i_see_first_link_title_at_new_tab(String value) {
-    	WebDriverWrapper.waitForAjaxJQueryProcess();
         org.junit.Assert.assertEquals("check first link title",WebDriverWrapper.getDriver().getTitle(), value);
     }
 }

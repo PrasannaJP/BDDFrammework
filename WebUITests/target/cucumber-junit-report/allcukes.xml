@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="19.603007">
-<testcase classname="Google Search" name="Check Search" time="9.26968">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="107.055642">
+<testcase classname="Google Search" name="Check Search" time="94.978631">
 <system-out><![CDATA[Given Open default website..................................................passed
 When I set text 'Selenium' at default page..................................passed
 When I set text 'Selenium' at default page..................................passed
@@ -9,7 +9,7 @@ When I click at '1' results link............................................pass
 Then I see first link title 'Selenium - Web Browser Automation' at new tab..passed
 ]]></system-out>
 </testcase>
-<testcase classname="Google Search" name="Check Search 2" time="10.333327">
+<testcase classname="Google Search" name="Check Search 2" time="12.077011">
 <system-out><![CDATA[Given Open default website..................................................passed
 When I set text 'Cucumber' at default page..................................passed
 When I set text 'Cucumber' at default page..................................passed

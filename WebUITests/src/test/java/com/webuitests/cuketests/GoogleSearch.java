@@ -18,14 +18,6 @@ import cucumber.api.java.en.When;
 
 public class GoogleSearch extends TestBase {
 	
-	//public static Properties testproperties;
-	//public static String URL = testproperties.getProperty("webuitests.URL");
-	//public static String URL = "http://google.co.in";
-	
-//	public GoogleSearch() {
-//		super();
-//		System.out.println("TEST");
-//}
 	
 	@Before
 	public void setUp(Scenario scenario) throws MalformedURLException{
@@ -74,18 +66,16 @@ public class GoogleSearch extends TestBase {
 	
 	@Then("^I see first link text '([^\\\"]*)' at results page$")
     public void i_see_first_link_text_at_results_page(String value) {
-		Assert.assertEquals(GoogleSearchPage.get().resultsLinks.getWebElement(0).getText(), value, "check first link text");
+		Assert.assertEquals("check first link text",GoogleSearchPage.get().resultsLinks.getText(0), value);
     }
 	
 	@When("^I click at '([^\\\"]*)' results link$")
     public void i_click_at_results_link(int number) {
-		GoogleSearchPage.get().resultsLinks.getWebElement(number-1).click();
+		GoogleSearchPage.get().resultsLinks.clickBy(number-1);
     }
 
     @Then("^I see first link title '([^\\\"]*)' at new tab$")
     public void i_see_first_link_title_at_new_tab(String value) {
-        WebDriverWrapper.waitWindowsCount(2);
-        WebDriverWrapper.switchWindow();
-        org.junit.Assert.assertEquals(WebDriverWrapper.getDriver().getTitle(), value, "check first link title");
+        org.junit.Assert.assertEquals("check first link title",WebDriverWrapper.getDriver().getTitle(), value);
     }
 }

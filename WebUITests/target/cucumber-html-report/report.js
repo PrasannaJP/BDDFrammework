@@ -81,7 +81,7 @@ formatter.examples({
     {
       "cells": [
         "Cucumber",
-        "Cucumber - Making BDD fun"
+        "Cucumber - Wikipedia, the free encyclopedia"
       ],
       "line": 23,
       "id": "google-search;check-search;;3"
@@ -90,7 +90,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2115904735,
+  "duration": 2475201778,
   "status": "passed"
 });
 formatter.background({
@@ -109,7 +109,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 2873937153,
+  "duration": 1455693907,
   "status": "passed"
 });
 formatter.scenario({
@@ -182,7 +182,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 804937579,
+  "duration": 712751806,
   "status": "passed"
 });
 formatter.match({
@@ -195,7 +195,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 2088667426,
+  "duration": 1734352998,
   "status": "passed"
 });
 formatter.match({
@@ -208,7 +208,7 @@ formatter.match({
   "location": "GoogleSearch.i_click_search_button(String)"
 });
 formatter.result({
-  "duration": 1040409681,
+  "duration": 197891346,
   "status": "passed"
 });
 formatter.match({
@@ -221,9 +221,8 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
 });
 formatter.result({
-  "duration": 245565919,
-  "error_message": "org.junit.ComparisonFailure: Selenium - Web Browser Automation expected:\u003c[Selenium - Web Browser Automation]\u003e but was:\u003c[check first link text]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)\r\n\tat ✽.Then I see first link text \u0027Selenium - Web Browser Automation\u0027 at results page(GoogleSearch.feature:16)\r\n",
-  "status": "failed"
+  "duration": 148669195,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -235,7 +234,8 @@ formatter.match({
   "location": "GoogleSearch.i_click_at_results_link(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 125938485,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -247,14 +247,15 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_title_at_new_tab(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1921816984,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 262628817,
+  "duration": 497363503,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1659076783,
+  "duration": 1755278049,
   "status": "passed"
 });
 formatter.background({
@@ -273,7 +274,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 6620031157,
+  "duration": 1407674018,
   "status": "passed"
 });
 formatter.scenario({
@@ -317,7 +318,7 @@ formatter.step({
 });
 formatter.step({
   "line": 16,
-  "name": "I see first link text \u0027Cucumber - Making BDD fun\u0027 at results page",
+  "name": "I see first link text \u0027Cucumber - Wikipedia, the free encyclopedia\u0027 at results page",
   "matchedColumns": [
     1
   ],
@@ -330,7 +331,7 @@ formatter.step({
 });
 formatter.step({
   "line": 18,
-  "name": "I see first link title \u0027Cucumber - Making BDD fun\u0027 at new tab",
+  "name": "I see first link title \u0027Cucumber - Wikipedia, the free encyclopedia\u0027 at new tab",
   "matchedColumns": [
     1
   ],
@@ -346,7 +347,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 790452166,
+  "duration": 670845560,
   "status": "passed"
 });
 formatter.match({
@@ -359,7 +360,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 1170700521,
+  "duration": 899037676,
   "status": "passed"
 });
 formatter.match({
@@ -372,22 +373,21 @@ formatter.match({
   "location": "GoogleSearch.i_click_search_button(String)"
 });
 formatter.result({
-  "duration": 157749103,
+  "duration": 157886746,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Cucumber - Making BDD fun",
+      "val": "Cucumber - Wikipedia, the free encyclopedia",
       "offset": 23
     }
   ],
   "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
 });
 formatter.result({
-  "duration": 1237654165,
-  "error_message": "org.junit.ComparisonFailure: Cucumber - Wikipedia, the free encyclopedia expected:\u003c[Cucumber - Making BDD fun]\u003e but was:\u003c[check first link text]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)\r\n\tat ✽.Then I see first link text \u0027Cucumber - Making BDD fun\u0027 at results page(GoogleSearch.feature:16)\r\n",
-  "status": "failed"
+  "duration": 1847774727,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -399,22 +399,24 @@ formatter.match({
   "location": "GoogleSearch.i_click_at_results_link(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 200567535,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Cucumber - Making BDD fun",
+      "val": "Cucumber - Wikipedia, the free encyclopedia",
       "offset": 24
     }
   ],
   "location": "GoogleSearch.i_see_first_link_title_at_new_tab(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3075710877,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 189208369,
+  "duration": 318552008,
   "status": "passed"
 });
 });

@@ -177,7 +177,7 @@ public class Elements<ParentPanel> {
      * @return Element
      */
     public Element getElement(int elementIndex,String ByLocator) {
-        return new Element<>(String.format("Element #%s", elementIndex), String.format("%s[%d]", getXPath().replace("//", "/descendant::"),elementIndex + 1),ByLocator, parent);
+        return new Element<>(String.format("Element #%s", elementIndex), String.format("%s[%d]", getXPath(ByLocator).replace("//", "/descendant::"),elementIndex + 1),ByLocator, parent);
     }
 
     /**
@@ -188,8 +188,8 @@ public class Elements<ParentPanel> {
      * @return Element
      */
     public Element getElement(int elementIndex,String ByLocator, String tag) {
-        String xpath = getXPath();
-        StringBuilder b = new StringBuilder(getXPath());
+        String xpath = getXPath(ByLocator);
+        StringBuilder b = new StringBuilder(getXPath(ByLocator));
         b.replace(xpath.lastIndexOf(tag), xpath.lastIndexOf(tag)+1+String.valueOf(elementIndex+1).length(), String.format("%s[%d]", tag, elementIndex+1));
         return new Element<>(String.format("Element #%s", elementIndex), b.toString(),ByLocator, parent);
     }
@@ -203,7 +203,7 @@ public class Elements<ParentPanel> {
         int elementIndex = 0;
         for (WebElement webEl : getWebElements()) {
             if (webEl.isDisplayed()) {
-                return new Element<>(String.format("Element #%s", elementIndex), String.format("%s[%d]", getXPath().replace("//", "/descendant::"), elementIndex + 1),ByLocator, parent);
+                return new Element<>(String.format("Element #%s", elementIndex), String.format("%s[%d]", getXPath(ByLocator).replace("//", "/descendant::"), elementIndex + 1),ByLocator, parent);
             }
             elementIndex++;
         }
@@ -520,9 +520,9 @@ public class Elements<ParentPanel> {
      *
      * @return Xpath of the element
      */
-    public String getXPath() {
-        String sLocator = locator.replaceAll("\\w*=(.*)", "$1").trim();
-        String sType = locator.replaceAll("(\\w*)=.*", "$1").trim();
+    public String getXPath(String ByLocator) {
+        String sLocator = locator;
+        String sType = ByLocator;
         switch (sType) {
             case "css":
                 return "";

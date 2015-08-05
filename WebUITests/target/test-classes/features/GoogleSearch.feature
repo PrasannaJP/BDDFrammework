@@ -20,4 +20,4 @@ Feature: Google Search
   Examples:
     |text     | title                              |
     |Selenium | Selenium - Web Browser Automation  |
-    |Cucumber | Cucumber - Making BDD fun          |
+    |Cucumber | Cucumber - Wikipedia, the free encyclopedia|

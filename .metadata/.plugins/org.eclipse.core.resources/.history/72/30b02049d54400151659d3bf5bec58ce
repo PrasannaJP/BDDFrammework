@@ -1,0 +1,29 @@
+package com.webuitests.base;
+
+import java.io.InputStream;
+import java.util.Properties;
+
+import com.webuiframework.oua.uitests.utils.TestBaseWebDriver;
+
+
+public class TestBase extends TestBaseWebDriver {
+	public static Properties testproperties;
+	String Propertiesfilename = "config.properties";
+	public static InputStream inputstream;
+	
+	public TestBase(){
+		
+	}
+	
+	public static void Initalise(){
+		
+		
+	}
+	
+	public static void getpropertyValue(){
+		testproperties = new Properties();
+		InputStream inputstream = 
+		
+	}
+
+}

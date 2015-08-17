@@ -10,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 import java.util.Properties;
 
-import com.webuiframework.oua.uitests.utils.PropertyReader;
 import com.webuiframework.oua.uitests.utils.TestBaseWebDriver;
 import com.webuiframework.oua.uitests.utils.Timer;
 

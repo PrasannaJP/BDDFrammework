@@ -1,0 +1,39 @@
+package com.webuitests.base;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+import com.webuiframework.oua.uitests.utils.TestBaseWebDriver;
+
+
+public class TestBase extends TestBaseWebDriver {
+	public Properties testproperties;
+	String Propertiesfilename = "config.properties";
+	public InputStream inputstream;
+	public static String BaseURL = "";
+	
+	public TestBase(){
+		
+	}
+	
+	public void Initalise(){
+		
+		testproperties = new Properties();
+		InputStream inputstream = getClass().getClassLoader().getResourceAsStream(Propertiesfilename);
+		if(inputstream != null){
+			try {
+				testproperties.load(inputstream);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		testproperties.getProperty("webuitests.browser");
+		initWebDriver();
+		testproperties.getProperty("webuitests.takePassedScreenshot"); 
+	}
+	
+	
+
+}

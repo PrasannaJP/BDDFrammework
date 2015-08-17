@@ -1,0 +1,40 @@
+package com.webuitests.base;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+import com.webuiframework.oua.uitests.utils.TestBaseWebDriver;
+
+public class TestBase extends TestBaseWebDriver {
+	public static Properties testproperties;
+	
+	//public static String URL ;
+	public static String URL = "http://google.com";
+	
+	public TestBase(){
+		
+	}
+	
+	public static void Initalise(){
+		Properties prop = new Properties();
+		String Propertiesfilename = "config.properties";
+		InputStream inputstream = getClass().getClassLoader().getResourceAsStream(Propertiesfilename);
+		if(inputstream != null){
+			try {
+				prop.load(inputstream);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+        //URL = testproperties.getProperty("webuitests.URL");
+		//System.out.print("Invoking Test Base");
+		//System.setProperty("webdriver.chrome.driver", testproperties.getProperty("webuitets.chromedriver"));
+		//System.setProperty("webdriver.ie.driver", testproperties.getProperty("webuitests.iedriver"));
+		//System.out.println(testproperties.getProperty("webuitests.URL"));
+		//System.out.println(testproperties.getProperty("webuitests.browser"));
+		
+	}
+
+}

@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.webuiframework.oua.uitests.utils.PropertyReader;
 import com.webuiframework.oua.uitests.utils.TestBaseWebDriver;
 import com.webuiframework.oua.uitests.utils.Timer;
 import com.webuiframework.oua.uitests.utils.WebDriverWrapper;

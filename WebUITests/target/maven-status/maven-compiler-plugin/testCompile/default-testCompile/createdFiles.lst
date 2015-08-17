@@ -1,3 +1,4 @@
+com\webuitests\cuketests\RunTests.class
 com\webuitests\cuketests\GoogleSearchPage.class
 com\webuitests\base\TestBase.class
 com\webuitests\cuketests\GoogleSearch.class

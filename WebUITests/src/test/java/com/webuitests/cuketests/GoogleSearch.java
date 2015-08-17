@@ -1,6 +1,9 @@
 package com.webuitests.cuketests;
 
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.util.Properties;
 
@@ -20,10 +23,8 @@ public class GoogleSearch extends TestBase {
 	
 	
 	@Before
-	public void setUp(Scenario scenario) throws MalformedURLException{
-		setBrowserType("firefox");
-		initWebDriver();
-		takePassedScreenshot(true);
+	public void setUp(Scenario scenario){
+		Initalise();
 	}
 	
 	@After
@@ -31,10 +32,9 @@ public class GoogleSearch extends TestBase {
 		WebDriverWrapper.quit();
 	}
 	
-	
 	@Given("^Open default website$")
 	public void open_default_website() throws Throwable {
-        WebDriverWrapper.open(URL);
+        WebDriverWrapper.open(BaseURL);
 	}
 
 	@Then("^I see default page$")

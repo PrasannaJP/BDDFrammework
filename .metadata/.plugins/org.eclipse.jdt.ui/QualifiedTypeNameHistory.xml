@@ -22,15 +22,17 @@
 <fullyQualifiedTypeName name="cucumber.api.java.Before"/>
 <fullyQualifiedTypeName name="cucumber.api.Scenario"/>
 <fullyQualifiedTypeName name="java.net.MalformedURLException"/>
-<fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="cucumber.api.java.After"/>
 <fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.WebDriverWrapper"/>
 <fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
 <fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
 <fullyQualifiedTypeName name="com.webuitests.pages.GoogleSearchPage"/>
 <fullyQualifiedTypeName name="com.webuiframework.oua.cuke.CukeBuilder"/>
-<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.TestBaseWebDriver"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.webuitests.cuketests.TestBase"/>
 <fullyQualifiedTypeName name="org.eclipse.jetty.websocket.api.SuspendToken"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="com.webuiframework.oua.uitests.utils.TestBaseWebDriver"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

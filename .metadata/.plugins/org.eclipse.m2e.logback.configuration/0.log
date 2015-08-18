@@ -8435,3 +8435,33 @@ Caused by: java.io.IOException: CreateProcess error=2, The system cannot find th
 2015-08-18 15:12:01,142 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\OUA Automation Framework\BDDFrammework\WebUIFramework\src\main\resources
 2015-08-18 15:12:01,142 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-08-18 15:12:01,142 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\OUA Automation Framework\BDDFrammework\WebUIFramework\src\test\resources
+2015-08-18 15:13:55,772 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:13:55,773 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\OUA Automation Framework\BDDFrammework\WebUITests\src\main\resources
+2015-08-18 15:13:55,774 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:13:55,774 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-18 15:29:05,967 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:29:05,968 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\OUA Automation Framework\BDDFrammework\WebUITests\src\main\resources
+2015-08-18 15:29:05,968 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:29:05,968 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-18 15:29:09,319 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:29:09,319 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\OUA Automation Framework\BDDFrammework\WebUITests\src\main\resources
+2015-08-18 15:29:09,320 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:29:09,321 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-18 15:33:18,152 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:33:18,152 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\OUA Automation Framework\BDDFrammework\WebUITests\src\main\resources
+2015-08-18 15:33:18,153 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:33:18,153 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-18 15:35:19,173 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:35:19,173 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\OUA Automation Framework\BDDFrammework\WebUITests\src\main\resources
+2015-08-18 15:35:19,174 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:35:19,175 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-18 15:37:06,799 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:37:06,799 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\OUA Automation Framework\BDDFrammework\WebUITests\src\main\resources
+2015-08-18 15:37:06,799 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:37:06,800 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-18 15:41:06,383 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:41:06,383 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\OUA\OUA Automation Framework\BDDFrammework\WebUITests\src\main\resources
+2015-08-18 15:41:06,384 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-18 15:41:06,384 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-18 15:42:07,306 [Worker-90] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\OUA\OUA Automation Framework\BDDFrammework\WebUITests
+2015-08-18 15:42:07,306 [Worker-90] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean

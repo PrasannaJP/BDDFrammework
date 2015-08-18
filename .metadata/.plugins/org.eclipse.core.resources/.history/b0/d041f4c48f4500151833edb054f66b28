@@ -31,6 +31,7 @@ public class GoogleSearch extends TestBase {
 	public void teardown(Scenario scenario){
 		try{
 			if(scenario.isFailed()){
+				System.out.println(scenario.getStatus());
 				ScreenShotMaker.takeScreenshotRemote(scenario.getName());
 			}
 		}

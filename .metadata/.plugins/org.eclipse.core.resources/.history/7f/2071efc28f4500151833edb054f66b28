@@ -25,12 +25,16 @@ public class GoogleSearch extends TestBase {
 	@Before
 	public void setUp(Scenario scenario){
 		Initalise();
+		System.out.println(scenario.getName());
+		System.out.println(scenario.getId());
+		
 	}
 	
 	@After
 	public void teardown(Scenario scenario){
 		try{
 			if(scenario.isFailed()){
+				System.out.println(scenario.getStatus());
 				ScreenShotMaker.takeScreenshotRemote(scenario.getName());
 			}
 		}

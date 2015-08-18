@@ -61,7 +61,7 @@ public final class ScreenShotMaker {
         String base64Screenshot;
         if (hasTake) {
             if (isDirectoryCorrect()) {
-                String name = String.format("%s.png", DateUtil.now(new SimpleDateFormat("HH_mm_ss-sss").toPattern()));
+                String name = String.format("%s.png", id + "_" + DateUtil.now(new SimpleDateFormat("HH_mm_ss-sss").toPattern()));
                 try {
                     TakesScreenshot tsDriver;
                     tsDriver = (TakesScreenshot) WebDriverWrapper.getDriver();

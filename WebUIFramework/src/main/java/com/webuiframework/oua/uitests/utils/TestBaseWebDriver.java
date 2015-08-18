@@ -68,34 +68,6 @@ public class TestBaseWebDriver {
     }
 
     /**
-     * Use allure framework.
-     *
-     * @param useAllure - true for using allure framework.
-     */
-    public static void useAllure(boolean useAllure) {
-        allure = useAllure;
-    }
-
-    /**
-     * Use Reportportal framework.
-     *
-     * @param useReportPortal - true for using ReportPortal framework.
-     */
-    public static void useReportPortal(boolean useReportPortal) {
-        reportportal = useReportPortal;
-    }
-
-
-    /**
-     * Logging locator of element at findElement method.
-     *
-     * @param loggingLocator - true for logging locator.
-     */
-    public static void logFindElementLocator(boolean loggingLocator) {
-        logFindElementLocator = loggingLocator;
-    }
-
-    /**
      * WebDriver initialization.
      */
     public void initWebDriver() {

@@ -1,14 +1,15 @@
 package com.webuitests.cuketests;
 
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.util.Properties;
 
 import org.junit.Assert;
+import org.openqa.selenium.TakesScreenshot;
 
+import com.webuiframework.oua.uitests.utils.ScreenShotMaker;
 import com.webuiframework.oua.uitests.utils.WebDriverWrapper;
 import com.webuitests.base.TestBase;
 
@@ -21,15 +22,25 @@ import cucumber.api.java.en.When;
 
 public class GoogleSearch extends TestBase {
 	
-	
 	@Before
 	public void setUp(Scenario scenario){
 		Initalise();
+		System.out.println(scenario.getName());
+		System.out.println(scenario.getId());
+		
 	}
 	
 	@After
-	public void closeDriver(){
-		WebDriverWrapper.quit();
+	public void teardown(Scenario scenario){
+		try{
+			if(scenario.isFailed()){
+				System.out.println(scenario.getStatus());
+				ScreenShotMaker.takeScreenshotRemote(scenario.getName());
+			}
+		}
+		finally{
+			WebDriverWrapper.quit();
+		}
 	}
 	
 	@Given("^Open default website$")

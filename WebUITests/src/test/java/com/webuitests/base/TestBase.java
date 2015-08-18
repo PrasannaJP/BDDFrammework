@@ -7,6 +7,7 @@ import java.util.Properties;
 import com.webuiframework.oua.uitests.utils.TestBaseWebDriver;
 
 
+
 public class TestBase extends TestBaseWebDriver {
 	public Properties testproperties;
 	String Propertiesfilename = "config.properties";
@@ -29,11 +30,10 @@ public class TestBase extends TestBaseWebDriver {
         setBrowserType(testproperties.getProperty("webuitests.browser"));
         System.out.println(testproperties.getProperty("webuitests.browser"));
 		initWebDriver();
-		testproperties.getProperty("webuitests.takePassedScreenshot");
+		takePassedScreenshot(Boolean.parseBoolean(testproperties.getProperty("webuitests.takePassedScreenshot")));
 		BaseURL = testproperties.getProperty("webuitests.URL");
 		
 	}
-	
 	
 
 }

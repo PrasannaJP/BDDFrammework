@@ -48,7 +48,7 @@ formatter.step({
 });
 formatter.step({
   "line": 17,
-  "name": "I click at \u00271\u0027 results link",
+  "name": "I click at \u00272\u0027 results link",
   "keyword": "When "
 });
 formatter.step({
@@ -90,7 +90,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1692991308,
+  "duration": 2117705688,
   "status": "passed"
 });
 formatter.background({
@@ -109,7 +109,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1571510890,
+  "duration": 1591175620,
   "status": "passed"
 });
 formatter.scenario({
@@ -161,7 +161,7 @@ formatter.step({
 });
 formatter.step({
   "line": 17,
-  "name": "I click at \u00271\u0027 results link",
+  "name": "I click at \u00272\u0027 results link",
   "keyword": "When "
 });
 formatter.step({
@@ -182,7 +182,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 3294173524,
+  "duration": 2649847659,
   "status": "passed"
 });
 formatter.match({
@@ -195,7 +195,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 2992474635,
+  "duration": 2781187990,
   "status": "passed"
 });
 formatter.match({
@@ -208,7 +208,7 @@ formatter.match({
   "location": "GoogleSearch.i_click_search_button(String)"
 });
 formatter.result({
-  "duration": 958795072,
+  "duration": 985903232,
   "status": "passed"
 });
 formatter.match({
@@ -221,20 +221,20 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
 });
 formatter.result({
-  "duration": 669682025,
+  "duration": 467276072,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1",
+      "val": "2",
       "offset": 12
     }
   ],
   "location": "GoogleSearch.i_click_at_results_link(int)"
 });
 formatter.result({
-  "duration": 817851816,
+  "duration": 1500754009,
   "status": "passed"
 });
 formatter.match({
@@ -247,15 +247,16 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_title_at_new_tab(String)"
 });
 formatter.result({
-  "duration": 30154277076,
-  "status": "passed"
+  "duration": 30384342934,
+  "error_message": "org.junit.ComparisonFailure: check first link title expected:\u003c[Downloads]\u003e but was:\u003c[Selenium - Web Browser Automation]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_first_link_title_at_new_tab(GoogleSearch.java:92)\r\n\tat ✽.Then I see first link title \u0027Selenium - Web Browser Automation\u0027 at new tab(GoogleSearch.feature:18)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 1361860457,
+  "duration": 1661106177,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1191201200,
+  "duration": 1720571163,
   "status": "passed"
 });
 formatter.background({
@@ -274,7 +275,7 @@ formatter.match({
   "location": "GoogleSearch.open_default_website()"
 });
 formatter.result({
-  "duration": 1522271984,
+  "duration": 1700603811,
   "status": "passed"
 });
 formatter.scenario({
@@ -326,7 +327,7 @@ formatter.step({
 });
 formatter.step({
   "line": 17,
-  "name": "I click at \u00271\u0027 results link",
+  "name": "I click at \u00272\u0027 results link",
   "keyword": "When "
 });
 formatter.step({
@@ -347,7 +348,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 3678362259,
+  "duration": 2990076542,
   "status": "passed"
 });
 formatter.match({
@@ -360,7 +361,7 @@ formatter.match({
   "location": "GoogleSearch.i_set_text_at_default_page(String)"
 });
 formatter.result({
-  "duration": 2757269474,
+  "duration": 2933888688,
   "status": "passed"
 });
 formatter.match({
@@ -373,7 +374,7 @@ formatter.match({
   "location": "GoogleSearch.i_click_search_button(String)"
 });
 formatter.result({
-  "duration": 946402715,
+  "duration": 1128140773,
   "status": "passed"
 });
 formatter.match({
@@ -386,20 +387,20 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_text_at_results_page(String)"
 });
 formatter.result({
-  "duration": 1509756473,
+  "duration": 1481945137,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1",
+      "val": "2",
       "offset": 12
     }
   ],
   "location": "GoogleSearch.i_click_at_results_link(int)"
 });
 formatter.result({
-  "duration": 1239657113,
+  "duration": 965417612,
   "status": "passed"
 });
 formatter.match({
@@ -412,11 +413,12 @@ formatter.match({
   "location": "GoogleSearch.i_see_first_link_title_at_new_tab(String)"
 });
 formatter.result({
-  "duration": 4447511251,
-  "status": "passed"
+  "duration": 6813461263,
+  "error_message": "org.junit.ComparisonFailure: check first link title expected:\u003cCucumber[]\u003e but was:\u003cCucumber[ - Wikipedia, the free encyclopedia]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.webuitests.cuketests.GoogleSearch.i_see_first_link_title_at_new_tab(GoogleSearch.java:92)\r\n\tat ✽.Then I see first link title \u0027Cucumber - Wikipedia, the free encyclopedia\u0027 at new tab(GoogleSearch.feature:18)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 1268370677,
+  "duration": 1578380408,
   "status": "passed"
 });
 });

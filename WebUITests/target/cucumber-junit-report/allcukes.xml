@@ -1,34 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="65.451784">
-<testcase classname="Google Search" name="Check Search" time="44.139299">
-<failure message="org.junit.ComparisonFailure: check first link title expected:&lt;[Downloads]&gt; but was:&lt;[Selenium - Web Browser Automation]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at com.webuitests.cuketests.GoogleSearch.i_see_first_link_title_at_new_tab(GoogleSearch.java:92)&#13;&#10;&#9;at ✽.Then I see first link title 'Selenium - Web Browser Automation' at new tab(GoogleSearch.feature:18)&#13;&#10;"><![CDATA[Given Open default website..................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="63.926756">
+<testcase classname="Google Search" name="Check Search" time="43.937162">
+<system-out><![CDATA[Given Open default website..................................................passed
 When I set text 'Selenium' at default page..................................passed
 When I set text 'Selenium' at default page..................................passed
 When I click 'Search2' button...............................................passed
 Then I see first link text 'Selenium - Web Browser Automation' at results page.passed
-When I click at '2' results link............................................passed
-Then I see first link title 'Selenium - Web Browser Automation' at new tab..failed
-
-StackTrace:
-org.junit.ComparisonFailure: check first link title expected:<[Downloads]> but was:<[Selenium - Web Browser Automation]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at com.webuitests.cuketests.GoogleSearch.i_see_first_link_title_at_new_tab(GoogleSearch.java:92)
-	at ✽.Then I see first link title 'Selenium - Web Browser Automation' at new tab(GoogleSearch.feature:18)
-]]></failure>
+When I click at '1' results link............................................passed
+Then I see first link title 'Selenium - Web Browser Automation' at new tab..passed
+]]></system-out>
 </testcase>
-<testcase classname="Google Search" name="Check Search 2" time="21.312485">
-<failure message="org.junit.ComparisonFailure: check first link title expected:&lt;Cucumber[]&gt; but was:&lt;Cucumber[ - Wikipedia, the free encyclopedia]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at com.webuitests.cuketests.GoogleSearch.i_see_first_link_title_at_new_tab(GoogleSearch.java:92)&#13;&#10;&#9;at ✽.Then I see first link title 'Cucumber - Wikipedia, the free encyclopedia' at new tab(GoogleSearch.feature:18)&#13;&#10;"><![CDATA[Given Open default website..................................................passed
+<testcase classname="Google Search" name="Check Search 2" time="19.989594">
+<system-out><![CDATA[Given Open default website..................................................passed
 When I set text 'Cucumber' at default page..................................passed
 When I set text 'Cucumber' at default page..................................passed
 When I click 'Search2' button...............................................passed
 Then I see first link text 'Cucumber - Wikipedia, the free encyclopedia' at results page.passed
-When I click at '2' results link............................................passed
-Then I see first link title 'Cucumber - Wikipedia, the free encyclopedia' at new tab.failed
-
-StackTrace:
-org.junit.ComparisonFailure: check first link title expected:<Cucumber[]> but was:<Cucumber[ - Wikipedia, the free encyclopedia]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at com.webuitests.cuketests.GoogleSearch.i_see_first_link_title_at_new_tab(GoogleSearch.java:92)
-	at ✽.Then I see first link title 'Cucumber - Wikipedia, the free encyclopedia' at new tab(GoogleSearch.feature:18)
-]]></failure>
+When I click at '1' results link............................................passed
+Then I see first link title 'Cucumber - Wikipedia, the free encyclopedia' at new tab.passed
+]]></system-out>
 </testcase>
 </testsuite>

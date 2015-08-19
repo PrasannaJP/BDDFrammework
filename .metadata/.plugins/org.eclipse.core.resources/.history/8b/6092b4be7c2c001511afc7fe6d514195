@@ -1,8 +1,0 @@
-package com.webuitests.cuketests;
-
-@RunWith(Cucumber.class)
-
- @Cucumber.Options(format={"SimpleHtmlReport:report/smokeTest.html"},tags={"@smokeTest",”@LoginTest”})
-public class RunTests {
-
-}

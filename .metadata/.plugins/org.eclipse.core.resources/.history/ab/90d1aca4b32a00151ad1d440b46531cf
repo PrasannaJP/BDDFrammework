@@ -1,7 +1,0 @@
-package com.webuitests.cuketests;
-
-import com.webuiframework.oua.uitests.panel.BasePanel;
-
-public class GoogleSearch {
-
-}

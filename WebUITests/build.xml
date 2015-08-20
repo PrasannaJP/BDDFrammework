@@ -50,14 +50,14 @@
 	                <include name="**/*.jar"/>
 	            </fileset>
 	        	<pathelement location="src/test/resources"/>
-	        	<pathelement location="src/test/java/com/webuitests/cuketests"/>
+	        	<pathelement location="com/webuitests/cuketests"/>
 	            <pathelement location="target/test-classes"/>
 	        </path>
 	    </target>
 
 	    <target name="compile-test" depends="classpath">
 	    	<mkdir dir="target/test-classes"/>
-	        <javac srcdir="src/test/java/com/webuitests/cuketests" destdir="target/test-classes" classpathref="classpath" includeantruntime="false"/>
+	        <javac srcdir="com/webuitests/cuketests" destdir="target/test-classes" classpathref="classpath" includeantruntime="false"/>
 	    </target>
 
 

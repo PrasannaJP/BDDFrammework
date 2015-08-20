@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+import com.webuiframework.oua.uitests.utils.ScreenShotMaker;
 import com.webuiframework.oua.uitests.utils.TestBaseWebDriver;
 
 
@@ -35,5 +36,8 @@ public class TestBase extends TestBaseWebDriver {
 		
 	}
 	
+	public void takeScreenShotsforfailurescenario(String screnarioName){
+		ScreenShotMaker.takeScreenshotRemote(screnarioName + "_" + testproperties.getProperty("webuitests.browser"));
+	}
 
 }

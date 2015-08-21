@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 5091340650,
+              "duration": 5015904609,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 309370019,
+              "duration": 273897286,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 199061015,
+              "duration": 254250380,
               "status": "passed"
             },
             "line": 6,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1965184388,
+              "duration": 1947774469,
               "status": "passed"
             },
             "line": 7,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 1365555,
+              "duration": 1800215,
               "status": "passed"
             },
             "line": 8,
@@ -81,11 +81,11 @@
     "description": "",
     "id": "oti-homepage",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/OUASignIn.feature",
+    "uri": "OUASignIn.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@demo"
+        "name": "@OTI_Homepage_Validation"
       }
     ]
   }

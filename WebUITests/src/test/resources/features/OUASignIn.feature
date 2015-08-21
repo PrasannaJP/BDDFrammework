@@ -1,4 +1,4 @@
-@demo
+@OTI_Homepage_Validation
 Feature: OTI Homepage
 
 @Verify_SignInButton

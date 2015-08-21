@@ -77,7 +77,7 @@
             <artifactId>WebUIFramework</artifactId>
             <scope>system</scope>
             <version>0.0.1-SNAPSHOT</version>
-            <systemPath>${basedir}\lib\WebUIFramework.jar</systemPath>
+            <systemPath>${project.basedir}\lib\WebUIFramework.jar</systemPath>
 			</dependency>
         </dependencies>
          <build>

@@ -111,10 +111,10 @@
                      <argument>--format</argument>
         			<argument>json:target/cucumber-json-report.json</argument>
                      <argument>--tags</argument>
-                     <argument>@Check_Search</argument>
+                     <argument>@demo</argument>
                      <argument>--glue</argument>
                      <argument>com/webuitests/cuketests</argument>
-                     <argument>src/test/resources/features</argument>
+                     <argument>src\test\resources\features\OUASignIn.feature</argument>
                  </arguments>
              </configuration>
          </plugin>

@@ -1,28 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="58.13734">
-<testcase classname="Google Search" name="Check Search" time="45.14902">
-<system-out><![CDATA[Given Open default website..................................................passed
-When I set text 'Selenium' at default page..................................passed
-When I set text 'Selenium' at default page..................................passed
-When I click 'Search2' button...............................................passed
-Then I see first link text 'Selenium - Web Browser Automation' at results page.passed
-When I click at '1' results link............................................passed
-Then I see first link title 'Selenium - Web Browser Automation' at new tab..passed
-]]></system-out>
-</testcase>
-<testcase classname="Google Search" name="Check Search 2" time="12.98832">
-<failure message="org.junit.ComparisonFailure: check first link text expected:&lt;Cucumber[]&gt; but was:&lt;Cucumber[ - Wikipedia, the free encyclopedia]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)&#13;&#10;&#9;at ✽.Then I see first link text 'Cucumber - Wikipedia, the free encyclopedia' at results page(GoogleSearch.feature:16)&#13;&#10;"><![CDATA[Given Open default website..................................................passed
-When I set text 'Cucumber' at default page..................................passed
-When I set text 'Cucumber' at default page..................................passed
-When I click 'Search2' button...............................................passed
-Then I see first link text 'Cucumber - Wikipedia, the free encyclopedia' at results page.failed
-When I click at '1' results link............................................skipped
-Then I see first link title 'Cucumber - Wikipedia, the free encyclopedia' at new tab.skipped
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.063649">
+<testcase classname="OTI Homepage" name="Verify the SignIn button on OTI homepage" time="29.063649">
+<failure message="junit.framework.AssertionFailedError: expected:&lt;true&gt; but was:&lt;false&gt;&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:57)&#13;&#10;&#9;at junit.framework.Assert.failNotEquals(Assert.java:329)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:78)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:174)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:181)&#13;&#10;&#9;at com.webuitests.cuketests.OTIhomepage.the_SignIn_button_is_visible(OTIhomepage.java:40)&#13;&#10;&#9;at ✽.Then the SignIn button is visible(src/test/resources/features/OUASignIn.feature:8)&#13;&#10;"><![CDATA[Given a vistior uses desktop browser........................................passed
+When a visitor to OTI homepage..............................................passed
+Then the SignIn button is visible...........................................failed
 
 StackTrace:
-org.junit.ComparisonFailure: check first link text expected:<Cucumber[]> but was:<Cucumber[ - Wikipedia, the free encyclopedia]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at com.webuitests.cuketests.GoogleSearch.i_see_first_link_text_at_results_page(GoogleSearch.java:77)
-	at ✽.Then I see first link text 'Cucumber - Wikipedia, the free encyclopedia' at results page(GoogleSearch.feature:16)
+junit.framework.AssertionFailedError: expected:<true> but was:<false>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:174)
+	at junit.framework.Assert.assertEquals(Assert.java:181)
+	at com.webuitests.cuketests.OTIhomepage.the_SignIn_button_is_visible(OTIhomepage.java:40)
+	at ✽.Then the SignIn button is visible(src/test/resources/features/OUASignIn.feature:8)
 ]]></failure>
 </testcase>
 </testsuite>

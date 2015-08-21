@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5091340650,
+  "duration": 2259858451,
   "status": "passed"
 });
 formatter.scenario({
@@ -49,25 +49,25 @@ formatter.match({
   "location": "OTIhomepage.a_visitor_to_OTI_homepage()"
 });
 formatter.result({
-  "duration": 199061015,
+  "duration": 105969992,
   "status": "passed"
 });
 formatter.match({
   "location": "OTIhomepage.a_vistior_uses_desktop_browser()"
 });
 formatter.result({
-  "duration": 1965184388,
+  "duration": 1603761818,
   "status": "passed"
 });
 formatter.match({
   "location": "OTIhomepage.the_SignIn_button_is_visible()"
 });
 formatter.result({
-  "duration": 1365555,
+  "duration": 2098149,
   "status": "passed"
 });
 formatter.after({
-  "duration": 309370019,
+  "duration": 321605810,
   "status": "passed"
 });
 });

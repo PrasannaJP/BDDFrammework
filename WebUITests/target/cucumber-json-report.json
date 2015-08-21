@@ -6,7 +6,11 @@
         "before": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2259858451,
+=======
+              "duration": 5015904609,
+>>>>>>> 79f7133e59261c461287777add7dd85bc3989789
               "status": "passed"
             },
             "match": {
@@ -21,7 +25,11 @@
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 321605810,
+=======
+              "duration": 273897286,
+>>>>>>> 79f7133e59261c461287777add7dd85bc3989789
               "status": "passed"
             },
             "match": {
@@ -34,7 +42,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 105969992,
+=======
+              "duration": 254250380,
+>>>>>>> 79f7133e59261c461287777add7dd85bc3989789
               "status": "passed"
             },
             "line": 6,
@@ -46,7 +58,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1603761818,
+=======
+              "duration": 1947774469,
+>>>>>>> 79f7133e59261c461287777add7dd85bc3989789
               "status": "passed"
             },
             "line": 7,
@@ -58,7 +74,11 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2098149,
+=======
+              "duration": 1800215,
+>>>>>>> 79f7133e59261c461287777add7dd85bc3989789
               "status": "passed"
             },
             "line": 8,
@@ -81,11 +101,11 @@
     "description": "",
     "id": "oti-homepage",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/OUASignIn.feature",
+    "uri": "OUASignIn.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@demo"
+        "name": "@OTI_Homepage_Validation"
       }
     ]
   }

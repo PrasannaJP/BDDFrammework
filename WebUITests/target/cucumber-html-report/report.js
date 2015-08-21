@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/OUASignIn.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("OUASignIn.feature");
 formatter.feature({
   "line": 2,
   "name": "OTI Homepage",
@@ -8,12 +8,16 @@ formatter.feature({
   "tags": [
     {
       "line": 1,
-      "name": "@demo"
+      "name": "@OTI_Homepage_Validation"
     }
   ]
 });
 formatter.before({
+<<<<<<< HEAD
   "duration": 2259858451,
+=======
+  "duration": 5015904609,
+>>>>>>> 79f7133e59261c461287777add7dd85bc3989789
   "status": "passed"
 });
 formatter.scenario({
@@ -49,25 +53,41 @@ formatter.match({
   "location": "OTIhomepage.a_visitor_to_OTI_homepage()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 105969992,
+=======
+  "duration": 254250380,
+>>>>>>> 79f7133e59261c461287777add7dd85bc3989789
   "status": "passed"
 });
 formatter.match({
   "location": "OTIhomepage.a_vistior_uses_desktop_browser()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 1603761818,
+=======
+  "duration": 1947774469,
+>>>>>>> 79f7133e59261c461287777add7dd85bc3989789
   "status": "passed"
 });
 formatter.match({
   "location": "OTIhomepage.the_SignIn_button_is_visible()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 2098149,
   "status": "passed"
 });
 formatter.after({
   "duration": 321605810,
+=======
+  "duration": 1800215,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 273897286,
+>>>>>>> 79f7133e59261c461287777add7dd85bc3989789
   "status": "passed"
 });
 });

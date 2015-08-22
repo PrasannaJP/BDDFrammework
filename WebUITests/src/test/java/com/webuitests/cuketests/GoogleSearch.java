@@ -62,13 +62,11 @@ public class GoogleSearch extends TestBase {
 	
 	@When("^I click '([^\\\"]*)' button$")
     public void i_click_search_button(String value) {
-        switch (value) {
-            case "Search":
+        if(value.equalsIgnoreCase("Search")) {
             	GoogleSearchPage.get().searchBtn2.click();
-                break;
-            case "Search2":
+        } else if(value.equalsIgnoreCase("Search2")) {   
+        
             	GoogleSearchPage.get().searchBtn2.click();
-                break;
         }
     }
 	

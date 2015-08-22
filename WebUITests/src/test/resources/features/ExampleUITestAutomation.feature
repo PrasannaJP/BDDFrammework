@@ -4,11 +4,11 @@ Feature: Google Search
   Background:
     Given Open default website
 
-  @Open_Page
+  @Open_Google_Page
   Scenario: Open Page
     Then I see default page
 
-  @Check_Search
+  @Check_Search_In_Google_Page
   Scenario Outline: Check Search
     When I set text '<text>' at default page
     When I set text '<text>' at default page

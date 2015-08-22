@@ -103,7 +103,7 @@
                  <mainClass>cucumber.api.cli.Main</mainClass>
                  <arguments>
                      <argument>--format</argument>
-                     <argument>junit:target/cucumber-junit-report/allcukes.xml</argument>
+                     <argument>junit:target/cucumber-junit-report/Cucumber.xml</argument>
                      <argument>--format</argument>
                      <argument>pretty</argument>
                      <argument>--format</argument>
@@ -118,6 +118,36 @@
                  </arguments>
              </configuration>
          </plugin>
+         <plugin>
+    <artifactId>maven-antrun-plugin</artifactId>
+    <executions>
+      <execution>
+        <id>test-reports</id>
+        <phase>test</phase>
+        <configuration>
+          <tasks>
+          <mkdir dir="target/cucumber-junit-report"/>
+            <junitreport todir="target/cucumber-junit-report">
+              <fileset dir="target/cucumber-junit-report">
+                <include name="**/Cucumber.xml"/>
+              </fileset>
+              <report format="noframes" todir="target/cucumber-junit-report"/>
+            </junitreport>
+          </tasks>
+        </configuration>
+        <goals>
+          <goal>run</goal>
+        </goals>
+      </execution>
+    </executions>
+    <dependencies>
+      <dependency>
+        <groupId>ant</groupId>
+        <artifactId>ant-junit</artifactId>
+        <version>1.6.2</version>
+      </dependency>
+    </dependencies>
+  </plugin>
 </plugins>
 </build>
 </project>

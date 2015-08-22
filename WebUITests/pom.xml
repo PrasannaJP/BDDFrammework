@@ -79,12 +79,14 @@
             <version>0.0.1-SNAPSHOT</version>
             <systemPath>${project.basedir}\lib\WebUIFramework.jar</systemPath>
 			</dependency>
+        	
         </dependencies>
          <build>
      <plugins>
          <plugin>
              <groupId>org.codehaus.mojo</groupId>
              <artifactId>exec-maven-plugin</artifactId>
+             <version>1.4.0</version>
              <executions>
                  <execution>
                      <phase>integration-test</phase>

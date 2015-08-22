@@ -41,7 +41,7 @@ public class GoogleSearch extends TestBase {
 	
 	@Given("^Open default website$")
 	public void open_default_website() throws Throwable {
-        WebDriverWrapper.open(BaseURL);
+        WebDriverWrapper.open(TestExampleURL);
 	}
 
 	@Then("^I see default page$")

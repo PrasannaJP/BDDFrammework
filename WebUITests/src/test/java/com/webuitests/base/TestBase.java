@@ -13,6 +13,7 @@ public class TestBase extends TestBaseWebDriver {
 	String Propertiesfilename = "config.properties";
 	public InputStream inputstream;
 	public static String BaseURL = "";
+	public static String TestExampleURL = "";
 	
 	public void Initalise(){
 		
@@ -32,6 +33,7 @@ public class TestBase extends TestBaseWebDriver {
 		initWebDriver();
 		takePassedScreenshot(Boolean.parseBoolean(testproperties.getProperty("webuitests.takePassedScreenshot")));
 		BaseURL = testproperties.getProperty("webuitests.URL");
+		TestExampleURL = testproperties.getProperty("webuitests.example");
 		
 	}
 	

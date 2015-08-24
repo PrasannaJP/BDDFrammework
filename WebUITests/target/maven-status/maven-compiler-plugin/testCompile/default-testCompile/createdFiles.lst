@@ -1,3 +1,4 @@
+com\webuitests\cuketests\homePage.class
 com\webuitests\cuketests\OTIhomepage.class
 com\webuitests\cuketests\GoogleSearch.class
 com\webuitests\cuketests\RunTests.class

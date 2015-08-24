@@ -14,9 +14,9 @@ public class TestBase extends TestBaseWebDriver {
 	public InputStream inputstream;
 	public static String BaseURL = "";
 	public static String TestExampleURL = "";
-	
+
 	public void Initalise(){
-		
+
 		testproperties = new Properties();
 		InputStream inputstream = getClass().getClassLoader().getResourceAsStream(Propertiesfilename);
 		if(inputstream != null){
@@ -27,15 +27,15 @@ public class TestBase extends TestBaseWebDriver {
 			}
 		}
 		System.setProperty("webdriver.chrome.driver", testproperties.getProperty("webuitests.chromedriver"));
-        System.setProperty("webdriver.ie.driver", testproperties.getProperty("webuitests.iedriver"));
-        setBrowserType(testproperties.getProperty("webuitests.browser"));
-        System.out.println(testproperties.getProperty("webuitests.browser"));
+		System.setProperty("webdriver.ie.driver", testproperties.getProperty("webuitests.iedriver"));
+		setBrowserType(testproperties.getProperty("webuitests.browser"));
+		System.out.println(testproperties.getProperty("webuitests.browser"));
 		initWebDriver();
 		takePassedScreenshot(Boolean.parseBoolean(testproperties.getProperty("webuitests.takePassedScreenshot")));
 		BaseURL = testproperties.getProperty("webuitests.URL");
 		TestExampleURL = testproperties.getProperty("webuitests.example");
-		
+
 	}
-	
+
 
 }

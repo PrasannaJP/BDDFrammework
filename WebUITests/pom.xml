@@ -112,10 +112,10 @@
                      <argument>--format</argument>
         			<argument>json:target/cucumber-json-report.json</argument>
                      <argument>--tags</argument>
-                     <argument>@OTI_Homepage_Validation</argument>
+                     <argument>@Home_Page_MenuItem_Validation</argument>
                      <argument>--glue</argument>
                      <argument>com/webuitests/cuketests</argument>
-                     <argument>src\test\resources\features</argument>
+                     <argument>src\test\resources\features\</argument>
                  </arguments>
              </configuration>
          </plugin>

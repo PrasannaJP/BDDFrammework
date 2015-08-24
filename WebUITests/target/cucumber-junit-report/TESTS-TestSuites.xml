@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="0" name="JUnitFormatter" package="cucumber.runtime.formatter" skipped="1" tests="1" time="22.537139">
+    <testcase classname="OTI Homepage Validation" name="verify home navbar menuitem visible in homepage" time="22.537139">
+      <skipped><![CDATA[Given a visitor to OTI hompage using desktop browser........................passed
+Then the Home nevbar menuitem is visible....................................passed
+Then the 'View courses' nevbar menuitem is visible..........................undefined
+Then the 'Study online' nevbar menuitem is visible..........................undefined
+Then the 'How we support you' nevbar menuitem is visible....................undefined
+Then the 'Study online' nevbar menuitem is visible..........................undefined
+Then the 'Pricing' nevbar menuitem is visible...............................undefined
+Then the 'Why us?' nevbar menuitem is visible...............................undefined
+]]></skipped>
+
+    </testcase>
+
+  </testsuite>
+</testsuites>

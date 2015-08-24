@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.420868">
+<testcase classname="OTI Homepage Validation" name="verify home navbar menuitem visible in homepage" time="24.420868">
+<system-out><![CDATA[Given a visitor to OTI hompage using desktop browser........................passed
+Then the Home nevbar menuitem is visible....................................passed
+Then the 'View courses' nevbar menuitem is visible..........................passed
+Then the 'Study online' nevbar menuitem is visible..........................passed
+Then the 'How we support you' nevbar menuitem is visible....................passed
+Then the 'Study online' nevbar menuitem is visible..........................passed
+Then the 'Pricing' nevbar menuitem is visible...............................passed
+Then the 'Why us?' nevbar menuitem is visible...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

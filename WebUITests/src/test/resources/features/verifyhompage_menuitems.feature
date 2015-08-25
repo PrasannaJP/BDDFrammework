@@ -1,3 +1,4 @@
+@OUA_Tests_Release1
 @Home_Page_MenuItem_Validation
 Feature: OTI Homepage Validation
 

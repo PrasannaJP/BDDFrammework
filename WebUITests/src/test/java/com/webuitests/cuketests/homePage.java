@@ -18,7 +18,7 @@ public class homePage extends TestBase
 		WebDriverWrapper.open(BaseURL);
 	}
 
-	@Then("^the Home nevbar menuitem is visible$")
+	@Then("^the 'Home' nevbar menuitem is visible$")
 	public void the_Home_nevbar_is_visible() throws Throwable
 	{
 		WebElement homeNavBar = driver.findElement(By.xpath("//a[contains(text(),'Home')]"));
@@ -35,7 +35,7 @@ public class homePage extends TestBase
 	@Then("^the 'Study online' nevbar menuitem is visible$")
 	public void the_Study_online_nevbar_menuitem_is_visible() throws Throwable 
 	{
-		WebElement Study_online = driver.findElement(By.xpath("//a[contains(text(),'Study online')]"));
+		WebElement Study_online = driver.findElement(By.xpath("//a[contains(text(),'Studyx online')]"));
 		Assert.assertEquals(true, Study_online.isDisplayed());
 	}
 

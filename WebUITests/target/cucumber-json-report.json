@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 5228306045,
+              "duration": 2202112988,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 5,
-        "name": "verify home navbar menuitem visible in homepage",
+        "name": "Validation of Callapse and Expand",
         "description": "",
-        "id": "oti-homepage-validation;verify-home-navbar-menuitem-visible-in-homepage",
+        "id": "oti-mobile-scenarios;validation-of-callapse-and-expand",
         "after": [
           {
             "result": {
-              "duration": 397940017,
+              "duration": 1418300186,
               "status": "passed"
             },
             "match": {
@@ -34,118 +34,46 @@
         "steps": [
           {
             "result": {
-              "duration": 18274485585,
+              "duration": 7026254030,
               "status": "passed"
             },
             "line": 6,
-            "name": "a visitor to OTI hompage using desktop browser",
+            "name": "As a visitor viewing OTI hompage using mobile browser",
             "match": {
-              "location": "homePage.a_visitor_to_OTI_hompage_using_desktop_browser()"
+              "location": "OUAMobile.as_a_visitor_viewing_OTI_hompage_using_mobile_browser()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 420481030,
+              "duration": 10080845134,
               "status": "passed"
             },
             "line": 7,
-            "name": "the Home nevbar menuitem is visible",
+            "name": "vistor tap on the \u0027menu\u0027 nevbar",
             "match": {
-              "location": "homePage.the_Home_nevbar_is_visible()"
+              "location": "OUAMobile.vistor_tap_on_the_menu_nevbar()"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 20494190,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "the \u0027View courses\u0027 nevbar menuitem is visible",
-            "match": {
-              "location": "homePage.the_View_courses_nevbar_menuitem_is_visible()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 22656921,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "the \u0027Study online\u0027 nevbar menuitem is visible",
-            "match": {
-              "location": "homePage.the_Study_online_nevbar_menuitem_is_visible()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 13797417,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "the \u0027How we support you\u0027 nevbar menuitem is visible",
-            "match": {
-              "location": "homePage.the_How_we_support_you_nevbar_menuitem_is_visible()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 14352211,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "the \u0027Study online\u0027 nevbar menuitem is visible",
-            "match": {
-              "location": "homePage.the_Study_online_nevbar_menuitem_is_visible()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 15208249,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "the \u0027Pricing\u0027 nevbar menuitem is visible",
-            "match": {
-              "location": "homePage.the_Pricing_nevbar_menuitem_is_visible()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 13146333,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "the \u0027Why us?\u0027 nevbar menuitem is visible",
-            "match": {
-              "location": "homePage.the_Why_us_nevbar_menuitem_is_visible()"
-            },
-            "keyword": "Then "
+            "keyword": "When "
           }
         ],
         "tags": [
           {
             "line": 4,
-            "name": "@Verify_menuitems_visible_in_homepage_desktop"
+            "name": "@Verifying_expand_and_collapse"
           }
         ]
       }
     ],
-    "name": "OTI Homepage Validation",
+    "name": "OTI_Mobile_scenarios",
     "description": "",
-    "id": "oti-homepage-validation",
+    "id": "oti-mobile-scenarios",
     "keyword": "Feature",
-    "uri": "verifyhompage_menuitems.feature",
+    "uri": "OUAMobile.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@Home_Page_MenuItem_Validation"
+        "name": "@OTI_Mobile_scenarios"
       }
     ]
   }

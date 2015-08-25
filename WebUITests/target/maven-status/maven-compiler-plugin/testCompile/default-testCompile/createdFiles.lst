@@ -1,6 +1,8 @@
-com\webuitests\cuketests\homePage.class
 com\webuitests\cuketests\OTIhomepage.class
-com\webuitests\cuketests\GoogleSearch.class
-com\webuitests\cuketests\RunTests.class
+com\webuitests\cuketests\OUAMobile.class
 com\webuitests\cuketests\GoogleSearchPage.class
 com\webuitests\base\TestBase.class
+com\webuitests\cuketests\OTIMenuITems_Validation_DeskTP.class
+com\webuitests\cuketests\GoogleSearch.class
+com\webuitests\cuketests\OTIAdministrativepage.class
+com\webuitests\cuketests\RunTests.class

@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.420868">
-<testcase classname="OTI Homepage Validation" name="verify home navbar menuitem visible in homepage" time="24.420868">
-<system-out><![CDATA[Given a visitor to OTI hompage using desktop browser........................passed
-Then the Home nevbar menuitem is visible....................................passed
-Then the 'View courses' nevbar menuitem is visible..........................passed
-Then the 'Study online' nevbar menuitem is visible..........................passed
-Then the 'How we support you' nevbar menuitem is visible....................passed
-Then the 'Study online' nevbar menuitem is visible..........................passed
-Then the 'Pricing' nevbar menuitem is visible...............................passed
-Then the 'Why us?' nevbar menuitem is visible...............................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.727512">
+<testcase classname="OTI_Mobile_scenarios" name="Validation of Callapse and Expand" time="20.727512">
+<system-out><![CDATA[Given As a visitor viewing OTI hompage using mobile browser.................passed
+When vistor tap on the 'menu' nevbar........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

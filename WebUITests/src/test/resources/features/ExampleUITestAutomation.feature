@@ -1,7 +1,7 @@
 @demo
 Feature: Google Search
 
-  Background:
+  Background: 
     Given Open default website
 
   @Open_Google_Page
@@ -17,7 +17,7 @@ Feature: Google Search
     When I click at '1' results link
     Then I see first link title '<title>' at new tab
 
-  Examples:
-    |text     | title                              |
-    |Selenium | Selenium - Web Browser Automation  |
-    |cucumber encyclopedia | Cucumber - Wikipedia, the free encyclopedia|
+    Examples: 
+      | text                  | title                                       |
+      | Selenium              | Selenium - Web Browser Automation           |
+      | cucumber encyclopedia | Cucumber - Wikipedia, the free encyclopedia |

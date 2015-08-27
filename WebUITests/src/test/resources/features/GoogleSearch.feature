@@ -14,7 +14,7 @@ Feature: Google Search
     When I set text '<text>' at default page
     When I click 'Search2' button
     Then I see first link text '<title>' at results page
-    When I click at '1' results link
+    When I click at '2' results link
     Then I see first link title '<title>' at new tab
 
   Examples:

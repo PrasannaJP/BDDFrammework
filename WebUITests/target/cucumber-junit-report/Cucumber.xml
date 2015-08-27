@@ -1,7 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.727512">
-<testcase classname="OTI_Mobile_scenarios" name="Validation of Callapse and Expand" time="20.727512">
-<system-out><![CDATA[Given As a visitor viewing OTI hompage using mobile browser.................passed
-When vistor tap on the 'menu' nevbar........................................passed
-]]></system-out>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="55.738102">
+<testcase classname="OTI_Mobile_scenarios" name="Verify able expand and collapse Introduction section qualification page" time="55.738102">
+<failure message="java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:743)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.webuitests.cuketests.OTIAdministrativepage.user_Expect_field_items_should_be_expanded(OTIAdministrativepage.java:85)&#13;&#10;&#9;at ✽.Then user Expect field items should be expanded.(OTIAdministrativepage.feature:8)&#13;&#10;"><![CDATA[Given OTI mobile user open the URL 'https://www.opentraining.edu.au',click on 'Menu',click on 'VIEW COURSES', navigate to 'Administration', click on 'View Course'.passed
+When user expand 'Language, literacy and numeracy requirements' or 'Credit' field items.passed
+Then user Expect field items should be expanded.............................failed
+
+StackTrace:
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.webuitests.cuketests.OTIAdministrativepage.user_Expect_field_items_should_be_expanded(OTIAdministrativepage.java:85)
+	at ✽.Then user Expect field items should be expanded.(OTIAdministrativepage.feature:8)
+]]></failure>
 </testcase>
 </testsuite>

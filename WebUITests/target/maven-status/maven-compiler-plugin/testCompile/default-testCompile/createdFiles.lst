@@ -1,5 +1,4 @@
 com\webuitests\cuketests\OTIhomepage.class
-com\webuitests\cuketests\OUAMobile.class
 com\webuitests\cuketests\GoogleSearchPage.class
 com\webuitests\base\TestBase.class
 com\webuitests\cuketests\OTIMenuITems_Validation_DeskTP.class

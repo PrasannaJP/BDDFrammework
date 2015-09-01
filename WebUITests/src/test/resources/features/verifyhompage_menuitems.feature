@@ -1,4 +1,4 @@
-@OUA_Tests_Release1 @Home_Page_MenuItem_Validation
+@OTI_Demo1 @Home_Page_MenuItem_Validation
 Feature: OTI Homepage Validation
 
   @Verify_menuitems_visible_in_homepage_desktop

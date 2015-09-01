@@ -1,13 +1,7 @@
 package com.webuitests.cuketests;
 
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.util.Properties;
-
 import org.junit.Assert;
-import org.openqa.selenium.TakesScreenshot;
 
 import com.webuiframework.oua.uitests.utils.ScreenShotMaker;
 import com.webuiframework.oua.uitests.utils.WebDriverWrapper;

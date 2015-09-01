@@ -1,7 +1,10 @@
 com\webuitests\cuketests\OTIhomepage.class
+com\webuitests\cuketests\test1.class
 com\webuitests\cuketests\GoogleSearchPage.class
 com\webuitests\base\TestBase.class
 com\webuitests\cuketests\OTIMenuITems_Validation_DeskTP.class
 com\webuitests\cuketests\GoogleSearch.class
 com\webuitests\cuketests\OTIAdministrativepage.class
+com\oti\pom\OTIMenuItems.class
 com\webuitests\cuketests\RunTests.class
+com\webuitests\cuketests\OTIMenuITems_Validation_Mobile.class

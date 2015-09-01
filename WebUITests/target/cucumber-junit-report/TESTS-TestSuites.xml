@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite failures="1" name="JUnitFormatter" package="cucumber.runtime.formatter" skipped="0" tests="1" time="43.573155">
-    <testcase classname="OTI_Mobile_scenarios" name="Verify able expand and collapse Introduction section qualification page" time="43.573155">
-      <failure message="java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.webuitests.cuketests.OTIAdministrativepage.user_Expect_field_items_should_be_expanded(OTIAdministrativepage.java:89)
-	at ✽.Then user Expect field items should be expanded.(OTIAdministrativepage.feature:8)
-"><![CDATA[Given OTI mobile user open the URL 'https://www.opentraining.edu.au',click on 'Menu',click on 'VIEW COURSES', navigate to 'Administration', click on 'View Course'.passed
-When user expand 'Language, literacy and numeracy requirements' or 'Credit' field items.passed
-Then user Expect field items should be expanded.............................failed
+  <testsuite failures="0" name="JUnitFormatter" package="cucumber.runtime.formatter" skipped="0" tests="2" time="30.794419">
+    <testcase classname="OTI Homepage Validation" name="verify home navbar menuitem visible in homepage" time="12.874109">
+      <system-out><![CDATA[Given a visitor to OTI hompage using desktop browser........................passed
+Then the 'Home' nevbar menuitem is visible..................................passed
+Then the 'View courses' nevbar menuitem is visible..........................passed
+Then the 'Study online' nevbar menuitem is visible..........................passed
+Then the 'How we support you' nevbar menuitem is visible....................passed
+Then the 'Study online' nevbar menuitem is visible..........................passed
+Then the 'Pricing' nevbar menuitem is visible...............................passed
+Then the 'Why us?' nevbar menuitem is visible...............................passed
+]]></system-out>
 
-StackTrace:
-java.lang.AssertionError: expected:<true> but was:<false>
+    </testcase>
 
-	at org.junit.Assert.fail(Assert.java:88)
-
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-
-	at org.junit.Assert.assertEquals(Assert.java:118)
-
-	at org.junit.Assert.assertEquals(Assert.java:144)
-
-	at com.webuitests.cuketests.OTIAdministrativepage.user_Expect_field_items_should_be_expanded(OTIAdministrativepage.java:89)
-
-	at ✽.Then user Expect field items should be expanded.(OTIAdministrativepage.feature:8)
-
-]]></failure>
+    <testcase classname="OTI Homepage Validation" name="Verify the menuitems visible under menu onmobile" time="17.92031">
+      <system-out><![CDATA[Given a visitor to OTI hompage using mobile browser.........................passed
+When a vistor tap on the 'menu' nevbar......................................passed
+Then the 'Home' nevbar menuitem is visible..................................passed
+Then the 'View courses' nevbar menuitem is visible..........................passed
+Then the 'Study online' nevbar menuitem is visible..........................passed
+Then the 'How we support you' nevbar menuitem is visible....................passed
+Then the 'Study online' nevbar menuitem is visible..........................passed
+Then the 'Pricing' nevbar menuitem is visible...............................passed
+Then the 'Why us?' nevbar menuitem is visible...............................passed
+]]></system-out>
 
     </testcase>
 

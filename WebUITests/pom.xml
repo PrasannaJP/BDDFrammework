@@ -112,7 +112,7 @@
                      <argument>--format</argument>
         			<argument>json:target/cucumber-json-report.json</argument>
                      <argument>--tags</argument>
-                     <argument>@OTI_Mobile_scenarios</argument>
+                     <argument>@Verify_menuitems_visible_under_menu_on_mobile</argument>
                      <argument>--glue</argument>
                      <argument>com/webuitests/cuketests</argument>
                      <argument>src\test\resources\features\</argument>

@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Dimension;
 
-import com.oti.pom.OTIMenuItems;
+import com.oti.pom.MenuItems;
 import com.webuiframework.oua.uitests.utils.WebDriverWrapper;
 import com.webuitests.base.TestBase;
 
@@ -33,7 +33,7 @@ public class OTIMenuITems_Validation_Mobile extends TestBase
 		{
 			//Implicitly waiting until elements get loaded and clicking on menu button
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			OTIMenuItems.Menu_nevbar(driver).click();
+			MenuItems.Menu_nevbar(driver).click();
 			Thread.sleep(5000);
 		}
 }

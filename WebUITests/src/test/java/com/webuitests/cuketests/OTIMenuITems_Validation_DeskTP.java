@@ -2,7 +2,7 @@ package com.webuitests.cuketests;
 
 import static org.junit.Assert.assertEquals;
 
-import com.oti.pom.OTIMenuItems;
+import com.oti.pom.MenuItems;
 import com.webuiframework.oua.uitests.utils.WebDriverWrapper;
 import com.webuitests.base.TestBase;
 
@@ -26,38 +26,38 @@ public class OTIMenuITems_Validation_DeskTP extends TestBase
 	@Then("^the 'Home' nevbar menuitem is visible$")
 	public void the_Home_nevbar_is_visible() throws Throwable
 	{
-		validation(OTIMenuItems.homeNavBar(driver).isDisplayed(),"homeNavBar");
+		validation(MenuItems.homeNavBar(driver).isDisplayed(),"homeNavBar");
 	}
 
 	@Then("^the 'View courses' nevbar menuitem is visible$")
 	public void the_View_courses_nevbar_menuitem_is_visible() throws Throwable 
 	{
-		validation(OTIMenuItems.View_courses(driver).isDisplayed(),"View_courses");
+		validation(MenuItems.View_courses(driver).isDisplayed(),"View_courses");
 	}
 
 	@Then("^the 'Study online' nevbar menuitem is visible$")
 	public void the_Study_online_nevbar_menuitem_is_visible() throws Throwable 
 	{ 	
-		validation(OTIMenuItems.Study_online(driver).isDisplayed(),"Study_online");
+		validation(MenuItems.Study_online(driver).isDisplayed(),"Study_online");
 	}
 
 	@Then("^the 'How we support you' nevbar menuitem is visible$")
 	public void the_How_we_support_you_nevbar_menuitem_is_visible() throws Throwable 
 	{
-		validation(OTIMenuItems.How_we_support_you(driver).isDisplayed(),"How_we_support_you");
+		validation(MenuItems.How_we_support_you(driver).isDisplayed(),"How_we_support_you");
 	}
 
 	@Then("^the 'Pricing' nevbar menuitem is visible$")
 	public void the_Pricing_nevbar_menuitem_is_visible() throws Throwable 
 	{
-		validation(OTIMenuItems.Pricing(driver).isDisplayed(),"Pricing");
+		validation(MenuItems.Pricing(driver).isDisplayed(),"Pricing");
 	}
 
 
 	@Then("^the 'Why us\\?' nevbar menuitem is visible$")
 	public void the_Why_us_nevbar_menuitem_is_visible() throws Throwable
 	{
-		validation(OTIMenuItems.Why_us(driver).isDisplayed(),"Why us\\?");
+		validation(MenuItems.Why_us(driver).isDisplayed(),"Why us\\?");
 	}
 
 
